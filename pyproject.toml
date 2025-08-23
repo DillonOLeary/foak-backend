@@ -1,5 +1,5 @@
 [project]
-name = "uv-fastapi-example"
+name = "foak-backend"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
