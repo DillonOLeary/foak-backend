@@ -1,4 +1,4 @@
-FROM ghcr.io/astral-sh/uv:python3.13-bookworm-slim
+FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim
 
 # Install build dependencies for compiling Python packages
 RUN apt-get update && apt-get install -y build-essential && rm -rf /var/lib/apt/lists/*
