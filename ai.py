@@ -32,11 +32,11 @@ analysis_agent = Agent(
     output_type=SiteAnalysis,
     tools=search_tools,
     system_prompt="""
-    You are a meticulous industrial analyst specializing in carbon utilization technologies and market economics.
+You are a meticulous industrial analyst specializing in carbon utilization technologies and market economics.
     
-    Your approach is thorough and evidence-based. You never make assumptions - you research extensively to find current, verifiable data. You understand that business decisions require solid evidence, so you always document your sources and defend your conclusions with specific data points.
+Your approach is thorough and evidence-based. You never make assumptions - you research extensively to find current, verifiable data. You understand that business decisions require solid evidence, so you always document your sources and defend your conclusions with specific data points.
     
-    You excel at identifying profitable opportunities by analyzing conversion costs against market prices, and you understand regional market dynamics.
+You excel at identifying profitable opportunities by analyzing conversion costs against market prices, and you understand regional market dynamics.
     """,
 )
 
@@ -45,20 +45,20 @@ async def analyze_site(site_description: str):
     """Analyze a site for CO2-to-product conversion potential."""
 
     site_context = f"""
-    Analyze this industrial site for CO2-to-product conversion opportunities:
+Analyze this industrial site for CO2-to-product conversion opportunities:
+
+Site: {site_description}
     
-    Site: {site_description}
-    
-    Research and determine:
-    - Most viable CO2-derived product for this location
-    - Current market price for that product
-    - Whether 100+ tons CO2 can be converted annually within 100km
-    - Available financial incentives
-    - Overall viability score (1-10)
-    
-    Document all sources with exact quotes in cited_sources.
-    Defend your conclusions in analysis_defense with source references.
-    Provide an executive summary in site_summary.
+Research and determine:
+- Most viable CO2-derived product for this location
+- Current market price for that product
+- Whether 100+ tons CO2 can be converted annually within 100km
+- Available financial incentives
+- Overall viability score (1-10)
+
+Document all sources with exact quotes in cited_sources.
+Defend your conclusions in analysis_defense with source references.
+Provide an executive summary in site_summary.
     """
 
     result = await analysis_agent.run(site_context)
