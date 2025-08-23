@@ -1,4 +1,3 @@
-from datetime import datetime
 from decimal import Decimal
 from typing import List
 
@@ -14,45 +13,45 @@ async def get_site_analyses():
     # Sample data demonstrating multiple site analyses
     return [
         SiteAnalysis(
-            site_id="site_001",
             location_name="Industrial Complex - Houston, TX",
+            latitude=29.7604,
+            longitude=-95.3698,
             energy_pricing=EnergyPricing(
                 electricity_price_per_kwh=Decimal("0.12"),
                 co2_price_per_ton=Decimal("85.50"),
+                summary="Competitive electricity rates with high CO2 credit prices",
             ),
             market_demand=MarketDemand(
-                methane_capacity_tons=1500,
+                can_sell_1000_tons_annually=True,
                 customer_count_within_50km=8,
-                has_pipeline_access=True,
-                scalability_rating=4,
+                summary="Strong industrial customer base with proven demand capacity",
             ),
             financial_incentives=FinancialIncentives(
-                available_grants_usd=750000,
-                tax_credits_available=True,
+                available_incentives_usd=750000,
                 incentive_summary="Federal ITC 30%, state renewable energy grants, EPA methane reduction incentives",
+                summary="Excellent federal and state incentive package available",
             ),
-            analysis_confidence=4,
-            last_updated=datetime.now().isoformat(),
+            summary="High-potential site with strong market demand and excellent incentives",
         ),
         SiteAnalysis(
-            site_id="site_002",
             location_name="Waste Management Facility - Denver, CO",
+            latitude=39.7392,
+            longitude=-104.9903,
             energy_pricing=EnergyPricing(
                 electricity_price_per_kwh=Decimal("0.09"),
                 co2_price_per_ton=Decimal("92.25"),
+                summary="Lower electricity costs but premium CO2 credit market",
             ),
             market_demand=MarketDemand(
-                methane_capacity_tons=800,
+                can_sell_1000_tons_annually=False,
                 customer_count_within_50km=3,
-                has_pipeline_access=False,
-                scalability_rating=2,
+                summary="Limited local demand, may require transport to larger markets",
             ),
             financial_incentives=FinancialIncentives(
-                available_grants_usd=350000,
-                tax_credits_available=True,
+                available_incentives_usd=350000,
                 incentive_summary="State RPS incentives, local utility rebates",
+                summary="Moderate incentive package focused on renewable energy credits",
             ),
-            analysis_confidence=3,
-            last_updated=datetime.now().isoformat(),
+            summary="Medium-potential site with transport challenges but good energy economics",
         ),
     ]
