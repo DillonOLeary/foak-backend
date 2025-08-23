@@ -1,38 +1,18 @@
 [
   {
-    "location_name": "Louisiana Gulf Coast Industrial Complex (Lake Charles/Cameron Parish)",
-    "latitude": 29.8917,
-    "longitude": -93.2578,
-    "market_demand": {
-      "can_sell_1000_tons_annually": true,
-      "customer_count_within_50km": 465,
-      "summary": "Exceptional market demand with 4 LNG export terminals, 15+ oil refineries, and nearly 450 petrochemical plants in the region. Louisiana consumes 70% of its energy in the industrial sector, with 15% of state's natural gas consumption used just for oil/gas production. Major facilities include Lake Charles Power Station (994 MW), multiple petrochemical complexes, and the nation's most active gas trading hub (Henry Hub) nearby."
-    },
-    "financial_incentives": {
-      "available_incentives_usd": 18500000,
-      "incentive_summary": "Louisiana Industrial Tax Exemption Program (ITEP) offers 80% property tax abatement for 10 years. EPA methane emissions charge creates $900-1500/ton penalty avoidance opportunity. Federal 45Q tax credits for carbon capture ($85/ton CO2). State renewable energy incentives and below-average industrial electricity rates (18% below national average).",
-      "summary": "Strong financial incentives combining state ITEP program (80% property tax exemption), EPA methane penalty avoidance worth $900-1500 per metric ton, federal 45Q carbon capture credits, and competitive energy rates. Conservative estimate of $18.5M based on 1000 tons/year methane capture avoiding penalties plus property tax savings on $10M facility investment."
-    },
-    "summary": "Prime location for methane capture with unmatched industrial demand from 450+ petrochemical plants and 4 LNG export terminals. Financial incentives are substantial, combining Louisiana's generous ITEP program, EPA methane penalty avoidance, and federal tax credits. The site offers immediate access to major consumers through existing pipeline infrastructure and benefits from the state's pro-industrial policies. With methane penalties starting at $900/ton in 2024 and rising to $1500/ton by 2026, capturing waste methane provides both revenue generation and penalty avoidance opportunities.",
-    "site_id": "d3ba3e2e-39ee-4dd0-8815-b1fed5f7f29b",
-    "last_updated": "2025-08-23T17:42:31.236810"
-  },
-  {
     "location_name": "Fort McMurray Oil Sands Industrial Park (Athabasca region)",
     "latitude": 56.7264,
     "longitude": -111.379,
-    "market_demand": {
-      "can_sell_1000_tons_annually": false,
-      "customer_count_within_50km": 3,
-      "summary": "Limited external market beyond oil sands operations. The 3 major operators (Syncrude, Suncor, CNRL) consume 30% of Canada's natural gas (4 billion GJ/year). While massive internal consumption exists, these facilities are already major gas consumers with established supply chains. External industrial demand within 50km is virtually non-existent due to remote location. Transport to southern markets faces high costs ($20-30/GJ) over 435km distance."
-    },
-    "financial_incentives": {
-      "available_incentives_usd": 85000000,
-      "incentive_summary": "Federal ITC covers 37.5% of CCUS capital costs. Alberta's ACCIP program provides additional 12% grant. TIER carbon credits worth CAD$80-170/tonne CO2e. Total support can reach 50% of project costs.",
-      "summary": "Strong financial support available through federal Investment Tax Credit (37.5% of eligible CCUS costs) and Alberta's Carbon Capture Incentive Program (12% grant). Projects can generate TIER carbon credits trading at CAD$80/tonne in 2024, rising to CAD$170/tonne by 2030. For a 1000-ton/year methane capture project, estimated incentives could reach $85 million USD over project lifetime."
-    },
-    "summary": "Fort McMurray's oil sands operations present a paradox for methane capture: massive energy consumption but limited external market opportunities. While the site hosts the world's largest industrial complex consuming 30% of Canada's natural gas, these operations are already major gas consumers with established supply networks. The remote location (435km from Edmonton) and lack of other industries within 50km severely limit external sales potential. However, exceptional financial incentives (up to 50% of project costs through federal and provincial programs) and strong carbon credit values make on-site utilization projects potentially viable, particularly for reducing operational emissions rather than external sales.",
-    "site_id": "67a4f3ef-d04f-4a5f-86ce-b3f6b13e8af2",
-    "last_updated": "2025-08-23T17:42:31.236824"
+    "co2_conversion_cost_per_ton": "115",
+    "primary_product_type": "Methanol",
+    "product_market_price": "430",
+    "profit_margin_per_ton_co2": "315",
+    "primary_product_customers": 8,
+    "can_sell_1000_tons_co2_equivalent": true,
+    "available_incentives_usd": 5300000,
+    "incentive_summary": "Alberta Carbon Capture Incentive Program (ACCIP) offers $3.2-5.3 billion in grants over 2024-2035. TIER carbon credits worth $65-170/tonne CO2. Federal 45Q-equivalent incentives available. ERA funding up to $10M per project.",
+    "summary": "Fort McMurray presents a highly profitable CO2 utilization opportunity with methanol production offering $315/tonne profit margins. The site benefits from proximity to oil sands operations providing abundant CO2 feedstock, existing Alberta Carbon Trunk Line infrastructure, and strong industrial demand in the region. With multiple funding mechanisms totaling over $5.3M in available incentives and established chemical facilities within 50km, the location offers excellent economics for large-scale CO2-to-methanol conversion despite higher capture costs in the oil sands sector.",
+    "site_id": "14f4c4d0-1bb2-46b2-b19a-273973bcd8c7",
+    "last_updated": "2025-08-23T18:15:22.508541"
   }
 ]
