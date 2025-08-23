@@ -6,4 +6,13 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi[standard]>=0.112.1",
+    "logfire>=4.3.5",
+    "pydantic-ai-slim[tavily]>=0.7.4",
+    "pydantic-ai[tavily]>=0.7.4",
+    "python-dotenv>=1.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.10",
 ]

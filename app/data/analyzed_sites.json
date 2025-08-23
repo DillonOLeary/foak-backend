@@ -1,0 +1,38 @@
+[
+  {
+    "site_id": "550e8400-e29b-41d4-a716-446655440000",
+    "location_name": "Louisiana Gulf Coast Industrial Complex, Lake Charles/Cameron Parish",
+    "latitude": 29.8917,
+    "longitude": -93.2578,
+    "market_demand": {
+      "can_sell_1000_tons_annually": true,
+      "customer_count_within_50km": 45,
+      "summary": "Exceptional market conditions with 4 LNG export terminals, major petrochemical facilities, and refineries within 50km. Lake Charles LNG alone has capacity for 2.0 million tonnes annually with Chevron. Industrial natural gas rates 18% below national average create strong demand for methane capture products."
+    },
+    "financial_incentives": {
+      "available_incentives_usd": 12500000,
+      "incentive_summary": "EPA methane reduction program compliance incentives (delayed implementation), voluntary carbon credits ($15-25/tonne CO2e), Louisiana industrial energy tax credits, potential 45Q carbon capture credits ($85/tonne stored)",
+      "summary": "Strong financial support through federal EPA methane programs (with extended compliance deadlines through 2025), state industrial energy incentives, and carbon credit opportunities in voluntary markets. Additional revenue from avoided methane penalties for super emitters."
+    },
+    "summary": "This Louisiana Gulf Coast site presents an exceptional opportunity for methane capture deployment. With 4 LNG export terminals, extensive petrochemical infrastructure, and 50,000+ miles of integrated pipelines, the market demand is among the strongest in North America. The site benefits from Louisiana's competitive industrial energy rates (18% below national average) and access to deep water shipping through Port of Lake Charles. Financial incentives totaling $12.5M are available through EPA methane reduction programs, state energy incentives, and carbon credit markets. The concentration of industrial customers and existing flaring operations make this an ideal location for large-scale methane capture and utilization.",
+    "last_updated": "2025-01-09T15:30:00Z"
+  },
+  {
+    "site_id": "a7b8c9d0-1234-5678-9abc-def012345678",
+    "location_name": "Fort McMurray Oil Sands Industrial Park (Athabasca region)",
+    "latitude": 56.7264,
+    "longitude": -111.379,
+    "market_demand": {
+      "can_sell_1000_tons_annually": false,
+      "customer_count_within_50km": 6,
+      "summary": "Limited external market demand due to remote location. Primary customers are oil sands operators (Syncrude, Suncor, CNRL) who already consume massive amounts of natural gas (30% of Canada's total). The 435km distance to Edmonton and harsh climate create high transportation costs. While internal demand exists for process heat and steam generation, selling 1000 tons annually to external customers is unlikely given the isolated location and existing gas supply infrastructure."
+    },
+    "financial_incentives": {
+      "available_incentives_usd": 15500000,
+      "incentive_summary": "Alberta TIER carbon credits at CAD$95/tonne (frozen), federal GHG Offset Credit System for methane recovery, Natural Resources Canada Energy Innovation Program funding, and Strategic Energy Management for Industry (SEMI) program support",
+      "summary": "Strong financial support available through multiple channels. Alberta's TIER program provides carbon credits at CAD$95/tonne CO2e (approximately USD$70/tonne). Federal programs offer project funding up to CAD$21.5M for carbon capture technologies. Methane has a global warming potential 25x higher than CO2, making methane reduction projects highly valuable for carbon credits. Additional support through SEMI program and federal offset protocols for methane recovery."
+    },
+    "summary": "The Fort McMurray Oil Sands Industrial Park presents a complex opportunity for methane capture. While the site has significant methane sources from oil sands processing and massive energy infrastructure already in place, the remote location (435km from Edmonton) and limited external industrial customers pose major market challenges. The primary opportunity lies in capturing fugitive methane emissions for use within the oil sands operations themselves rather than external sales. With Alberta's TIER carbon price frozen at CAD$95/tonne and federal support programs offering up to CAD$21.5M for carbon capture projects, the financial incentives are substantial. However, the harsh climate, high transportation costs, and Indigenous consultation requirements add complexity. The site is better suited for internal methane utilization and carbon credit generation rather than commercial methane sales.",
+    "last_updated": "2025-01-27T18:30:00Z"
+  }
+]
