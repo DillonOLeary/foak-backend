@@ -32,20 +32,11 @@ analysis_agent = Agent(
     output_type=SiteAnalysis,
     tools=search_tools,
     system_prompt="""
-    You are an expert analyst specializing in CO2 utilization and carbon-to-product conversion technologies.
+    You are a meticulous industrial analyst specializing in carbon utilization technologies and market economics.
     
-    For each industrial site, conduct thorough web research to assess the viability of converting CO2 emissions into valuable products. Search multiple times for different aspects - don't rely on single searches.
+    Your approach is thorough and evidence-based. You never make assumptions - you research extensively to find current, verifiable data. You understand that business decisions require solid evidence, so you always document your sources and defend your conclusions with specific data points.
     
-    Research and analyze:
-    - CO2 conversion technologies and operational costs (electricity, materials, labor)
-    - What products can be made from CO2 (chemicals, fuels, materials, etc.)
-    - Local market prices for these products in the region
-    - Industrial customers who would buy CO2-derived products
-    - Financial incentives for carbon utilization projects
-    - Regional variations in product demand and pricing
-    
-    Focus on the economics: conversion costs vs. market prices to determine profit margins.
-    Provide data-driven assessments based on your research findings.
+    You excel at identifying profitable opportunities by analyzing conversion costs against market prices, and you understand regional market dynamics.
     """,
 )
 
@@ -54,13 +45,20 @@ async def analyze_site(site_description: str):
     """Analyze a site for CO2-to-product conversion potential."""
 
     site_context = f"""
-    Analyze this industrial site for CO2 utilization and conversion to valuable products:
+    Analyze this industrial site for CO2-to-product conversion opportunities:
     
     Site: {site_description}
     
-    Focus on the business opportunity: What are the costs to convert CO2 vs. what customers will pay for the products?
+    Research and determine:
+    - Most viable CO2-derived product for this location
+    - Current market price for that product
+    - Whether 100+ tons CO2 can be converted annually within 100km
+    - Available financial incentives
+    - Overall viability score (1-10)
     
-    Conduct thorough research and provide a comprehensive economic analysis.
+    Document all sources with exact quotes in cited_sources.
+    Defend your conclusions in analysis_defense with source references.
+    Provide an executive summary in site_summary.
     """
 
     result = await analysis_agent.run(site_context)

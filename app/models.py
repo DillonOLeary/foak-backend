@@ -1,51 +1,47 @@
 from datetime import datetime
 from decimal import Decimal
+from typing import List
 from uuid import UUID, uuid4
 
-from pydantic import BaseModel, Field, computed_field
+from pydantic import BaseModel, Field, HttpUrl, computed_field
+
+
+class CitedSource(BaseModel):
+    url: HttpUrl = Field(..., description="Source website URL")
+    extracted_quote: str = Field(..., description="Relevant quote or data point from the source")
 
 
 class SiteAnalysis(BaseModel):
-    # Location
+    # Basic Site Information
     location_name: str = Field(..., description="Human-readable site location")
     latitude: float = Field(..., description="Latitude coordinate of the site")
     longitude: float = Field(..., description="Longitude coordinate of the site")
-
-    # CO2 Conversion Economics
-    co2_conversion_cost_per_ton: Decimal = Field(
-        ...,
-        description="Cost to convert 1 ton of CO2 including electricity, materials, labor",
+    
+    # Business Opportunity Assessment
+    viability_score: int = Field(..., ge=1, le=10, description="Overall business viability score from 1 (poor) to 10 (excellent)")
+    primary_product_type: str = Field(..., description="Most viable product to produce from CO2 at this location")
+    product_market_price: Decimal = Field(..., description="Current market price for this product in the region")
+    
+    # Market Demand
+    can_sell_100_tons_co2_equivalent_within_100_km: bool = Field(
+        ..., description="Whether there's demand to convert 100 tons of CO2 annually within 100 km"
     )
-    primary_product_type: str = Field(
-        ..., description="Most viable product to produce from CO2 at this location"
-    )
-    product_market_price: Decimal = Field(
-        ..., description="Current market price for this product in the region"
-    )
-    profit_margin_per_ton_co2: Decimal = Field(
-        ...,
-        description="Profit per ton of CO2 converted (market price - conversion cost)",
-    )
-
-    # Market Analysis
-    primary_product_customers: int = Field(
-        ...,
-        description="Number of potential customers for CO2-derived products within 50km",
-    )
-    can_sell_1000_tons_co2_equivalent: bool = Field(
-        ..., description="Whether there's demand to convert 1000 tons of CO2 annually"
-    )
-
+    
     # Financial Support
-    available_incentives_usd: int = Field(
-        ..., description="Total financial incentives available in USD"
+    available_incentives: List[str] = Field(
+        ..., description="List of available financial incentives and their amounts"
     )
-    incentive_summary: str = Field(
-        ..., description="Brief summary of key financial incentives"
+    
+    # Analysis Documentation
+    cited_sources: List[CitedSource] = Field(
+        ..., description="Research sources with relevant quotes supporting the analysis"
     )
-
-    # Overall Assessment
-    summary: str = Field(..., description="Overall site analysis summary")
+    analysis_defense: str = Field(
+        ..., description="Technical defense of each field's value with references to specific cited sources"
+    )
+    site_summary: str = Field(
+        ..., description="Executive summary of the business opportunity and recommendation"
+    )
 
     # Auto-generated fields
     @computed_field
