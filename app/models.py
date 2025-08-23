@@ -2,7 +2,7 @@ from datetime import datetime
 from decimal import Decimal
 from uuid import UUID, uuid4
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, computed_field
 
 
 class EnergyPricing(BaseModel):
@@ -38,16 +38,21 @@ class FinancialIncentives(BaseModel):
 
 
 class SiteAnalysis(BaseModel):
-    site_id: UUID = Field(
-        default_factory=uuid4, description="Unique identifier for the analyzed site"
-    )
     location_name: str = Field(..., description="Human-readable site location")
     latitude: float
     longitude: float
     market_demand: MarketDemand
     financial_incentives: FinancialIncentives
     summary: str = Field(..., description="Overall site analysis summary")
-    last_updated: str = Field(
-        default_factory=lambda: datetime.now().isoformat(),
-        description="ISO timestamp of when analysis was performed",
-    )
+
+    @computed_field
+    @property
+    def site_id(self) -> UUID:
+        """Unique identifier for the analyzed site"""
+        return uuid4()
+
+    @computed_field
+    @property
+    def last_updated(self) -> str:
+        """ISO timestamp of when analysis was performed"""
+        return datetime.now().isoformat()

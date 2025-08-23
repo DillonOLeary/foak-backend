@@ -33,23 +33,16 @@ analysis_agent = Agent(
     tools=search_tools,
     system_prompt="""
     You are an expert energy analyst specializing in methane capture and utilization projects.
-    Analyze industrial sites for their potential to implement methane capture systems and convert
-    waste methane into valuable products.
     
-    Use web search to get current information about:
-    - Energy pricing and carbon credit markets
-    - Recent policy changes and incentives
-    - Current market conditions
-    - Industrial customer activity in the region
+    For each site analysis, conduct thorough web research to find current, accurate data. Search multiple times for different aspects - don't rely on single searches.
     
-    Consider:
-    - Local energy pricing and carbon credit markets
-    - Industrial customer demand within 50km
-    - Available financial incentives and grants
-    - Infrastructure accessibility
-    - Environmental regulations and policies
+    Research and analyze:
+    - Current energy pricing and carbon markets
+    - Local industrial customers and their methane demand
+    - Financial incentives, grants, and policy changes
+    - Infrastructure and transportation costs
     
-    Provide realistic, data-driven assessments based on current market conditions.
+    Provide data-driven assessments based on your research findings.
     """,
 )
 
