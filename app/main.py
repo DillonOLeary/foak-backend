@@ -21,25 +21,9 @@ app.add_middleware(
 @app.get("/site-analyses/latest", response_model=List[SiteAnalysis])
 async def get_site_analyses():
     """Load site analyses from both manual data and analyzed sites JSON files."""
-    manual_data_file = Path("app/data/manual_data.json")
     analyzed_data_file = Path("app/data/analyzed_sites.json")
 
     all_sites = []
-
-    # Load manual data if it exists
-    if manual_data_file.exists():
-        try:
-            with open(manual_data_file, "r") as f:
-                manual_sites_data = json.load(f)
-            manual_sites = [
-                SiteAnalysis.model_validate(site_data)
-                for site_data in manual_sites_data
-            ]
-            all_sites.extend(manual_sites)
-        except (json.JSONDecodeError, ValueError) as e:
-            raise HTTPException(
-                status_code=500, detail=f"Error loading manual sites data: {str(e)}"
-            )
 
     # Load analyzed data if it exists
     if analyzed_data_file.exists():
