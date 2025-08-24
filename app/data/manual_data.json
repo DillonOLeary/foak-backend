@@ -18,7 +18,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Base Plant (mine & upgrader)",
     "cited_sources": []
   },
   {
@@ -37,7 +37,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Mildred Lake & Aurora North mines/upgraders",
     "cited_sources": []
   },
   {
@@ -58,7 +58,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Horizon Oil Sands (mine & upgrader)",
     "cited_sources": []
   },
   {
@@ -79,7 +79,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Kearl Oil Sands (mine)",
     "cited_sources": []
   },
   {
@@ -100,7 +100,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Fort Hills (mine)",
     "cited_sources": []
   },
   {
@@ -121,7 +121,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Surmont (in-situ SAGD, south of Fort McMurray)",
     "cited_sources": []
   },
   {
@@ -140,7 +140,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Christina Lake (in-situ SAGD, near Conklin)",
     "cited_sources": []
   },
   {
@@ -159,7 +159,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Oil sands project (central Fort McMurray coords)",
     "cited_sources": []
   },
   {
@@ -180,7 +180,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Oil & gas operations (central Fort McMurray coords)",
     "cited_sources": []
   },
   {
@@ -201,7 +201,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Oil sands development (central Fort McMurray coords)",
     "cited_sources": []
   },
   {
@@ -222,7 +222,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Joslyn Oil Sands project (central Fort McMurray coords)",
     "cited_sources": []
   },
   {
@@ -244,7 +244,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Scotford Complex (refinery, upgrader, chemicals, Quest CCS)",
     "cited_sources": []
   },
   {
@@ -266,7 +266,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "NWR Sturgeon Refinery (bitumen refinery, 80,000 bbl/d)",
     "cited_sources": []
   },
   {
@@ -287,7 +287,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Heartland Petrochemical Complex (PDH/PP facility)",
     "cited_sources": []
   },
   {
@@ -310,7 +310,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Redwater Fractionation & Storage (RFS I\u2013IV) + cogen",
     "cited_sources": []
   },
   {
@@ -329,7 +329,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Cold Lake in-situ (multiple pads & central processing)",
     "cited_sources": []
   },
   {
@@ -350,7 +350,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Primrose & Wolf Lake (in-situ thermal recovery)",
     "cited_sources": []
   },
   {
@@ -369,7 +369,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Foster Creek (in-situ SAGD)",
     "cited_sources": []
   },
   {
@@ -390,7 +390,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Wapiti Gas Plant (Montney sour gas processing)",
     "cited_sources": []
   },
   {
@@ -411,7 +411,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Pipestone Sour Gas Plant (Montney gas processing)",
     "cited_sources": []
   },
   {
@@ -432,7 +432,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Carmon Creek Project (heavy oil in-situ, 40 km NE of Peace River)",
     "cited_sources": []
   },
   {
@@ -453,7 +453,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Heavy oil operations (Bluesky & Clearwater formations)",
     "cited_sources": []
   },
   {
@@ -474,7 +474,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Northern conventional oil & gas operations",
     "cited_sources": []
   },
   {
@@ -495,7 +495,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Conventional oil & gas production",
     "cited_sources": []
   },
   {
@@ -516,7 +516,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Unconventional oil & gas development",
     "cited_sources": []
   },
   {
@@ -538,7 +538,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Brazeau River Complex (gas processing, NGL fractionation)",
     "cited_sources": []
   },
   {
@@ -559,7 +559,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Sturgeon Refinery area (bitumen upgrading)",
     "cited_sources": []
   },
   {
@@ -580,7 +580,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Strathcona Refinery (200,000 bbl/d, renewable diesel)",
     "cited_sources": []
   },
   {
@@ -601,7 +601,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Edmonton Refinery (135,000 bbl/d capacity)",
     "cited_sources": []
   },
   {
@@ -622,7 +622,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Sweet gas processing plant (Montney formation)",
     "cited_sources": []
   },
   {
@@ -643,7 +643,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Oilfield services and equipment",
     "cited_sources": []
   },
   {
@@ -662,7 +662,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Well servicing and drilling contractor",
     "cited_sources": []
   },
   {
@@ -683,7 +683,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Gas processing (Duvernay & Montney formations)",
     "cited_sources": []
   },
   {
@@ -704,7 +704,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Duvernay and Montney unconventional development",
     "cited_sources": []
   },
   {
@@ -725,7 +725,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Beaverhill Lake oil pools (6,350 boe/d production)",
     "cited_sources": []
   },
   {
@@ -747,7 +747,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Geothermal-natural gas hybrid project development",
     "cited_sources": []
   },
   {
@@ -768,7 +768,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Conventional oil production in Beaverhill Lake pools",
     "cited_sources": []
   },
   {
@@ -790,7 +790,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Gas processing and midstream facilities",
     "cited_sources": []
   },
   {
@@ -809,7 +809,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Natural gas-fired power generation (870 MW capacity)",
     "cited_sources": []
   },
   {
@@ -828,7 +828,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Only commercial-scale methanol plant in Canada (0.6M tonnes/yr)",
     "cited_sources": []
   },
   {
@@ -849,7 +849,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Thermal carbon black producer (54,000 tonnes/yr, 27.5 MW cogen)",
     "cited_sources": []
   },
   {
@@ -870,7 +870,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Regional oil & gas operations",
     "cited_sources": []
   },
   {
@@ -889,7 +889,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Light oil production and development",
     "cited_sources": []
   },
   {
@@ -910,7 +910,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Conventional oil & gas operations",
     "cited_sources": []
   },
   {
@@ -931,7 +931,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Oil & gas operations in southeastern Alberta",
     "cited_sources": []
   },
   {
@@ -952,7 +952,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Oilfield general contracting and services",
     "cited_sources": []
   },
   {
@@ -971,7 +971,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Industrial equipment and manufacturing",
     "cited_sources": []
   },
   {
@@ -990,7 +990,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Drilling contractor services",
     "cited_sources": []
   },
   {
@@ -1011,7 +1011,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Gas processing and conventional oil operations",
     "cited_sources": []
   },
   {
@@ -1030,7 +1030,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Oilfield construction and pipeline services",
     "cited_sources": []
   },
   {
@@ -1049,7 +1049,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Well servicing and completion services",
     "cited_sources": []
   },
   {
@@ -1070,7 +1070,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Oilfield equipment and services",
     "cited_sources": []
   },
   {
@@ -1091,7 +1091,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Gas fields and processing facilities",
     "cited_sources": []
   },
   {
@@ -1110,7 +1110,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Natural gas operations and processing",
     "cited_sources": []
   },
   {
@@ -1131,7 +1131,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Natural gas production and development",
     "cited_sources": []
   },
   {
@@ -1152,7 +1152,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Oil & gas exploration and production",
     "cited_sources": []
   },
   {
@@ -1171,7 +1171,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Oil & gas production and development",
     "cited_sources": []
   },
   {
@@ -1192,7 +1192,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Gas processing plant (near Saskatchewan border)",
     "cited_sources": []
   },
   {
@@ -1213,7 +1213,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Gas processing and midstream facilities",
     "cited_sources": []
   },
   {
@@ -1234,7 +1234,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Gas processing expansion facility",
     "cited_sources": []
   },
   {
@@ -1257,7 +1257,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Fort Saskatchewan, Redwater, Bruderheim, Lamont hub",
     "cited_sources": []
   },
   {
@@ -1278,7 +1278,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Fort McMurray and surrounding oil sands operations",
     "cited_sources": []
   },
   {
@@ -1303,7 +1303,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Refinery/Petrochemical",
     "cited_sources": []
   },
   {
@@ -1327,7 +1327,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Refinery/Petrochemical",
     "cited_sources": []
   },
   {
@@ -1350,7 +1350,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Fertilizers/Chemicals",
     "cited_sources": []
   },
   {
@@ -1372,7 +1372,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Refinery/Petrochemical",
     "cited_sources": []
   },
   {
@@ -1394,7 +1394,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Petrochemical",
     "cited_sources": []
   },
   {
@@ -1416,7 +1416,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Specialty Chemicals",
     "cited_sources": []
   },
   {
@@ -1438,7 +1438,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Chemicals",
     "cited_sources": []
   },
   {
@@ -1461,7 +1461,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Refinery",
     "cited_sources": []
   },
   {
@@ -1484,7 +1484,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Diverse Industries",
     "cited_sources": []
   },
   {
@@ -1508,7 +1508,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Heavy Industries",
     "cited_sources": []
   },
   {
@@ -1530,7 +1530,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Chemical/Pharma",
     "cited_sources": []
   },
   {
@@ -1553,7 +1553,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Refinery",
     "cited_sources": []
   },
   {
@@ -1576,7 +1576,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Refinery",
     "cited_sources": []
   },
   {
@@ -1598,7 +1598,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Chemicals/Polymers",
     "cited_sources": []
   },
   {
@@ -1620,7 +1620,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Specialty Chemicals",
     "cited_sources": []
   },
   {
@@ -1641,7 +1641,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Engineering/EPC",
     "cited_sources": []
   },
   {
@@ -1663,7 +1663,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Petrochemical Equipment",
     "cited_sources": []
   },
   {
@@ -1689,7 +1689,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "592,000 bbl/d refinery, integrated chemical complex",
     "cited_sources": []
   },
   {
@@ -1715,7 +1715,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Large refinery & chemical hub, green transition pilot",
     "cited_sources": []
   },
   {
@@ -1739,7 +1739,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Integrated refinery, major ethylene cracker",
     "cited_sources": []
   },
   {
@@ -1763,7 +1763,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "SPC/Chevron refinery, storage terminal, JV partnerships",
     "cited_sources": []
   },
   {
@@ -1788,7 +1788,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Chevron/PCS joint venture refining and chemicals",
     "cited_sources": []
   },
   {
@@ -1813,7 +1813,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Polymers, ethylene, multinational chemical supercluster",
     "cited_sources": []
   },
   {
@@ -1836,7 +1836,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Advanced manufacturing, light industry",
     "cited_sources": []
   },
   {
@@ -1859,7 +1859,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Largest port, multi-user industrial infrastructure",
     "cited_sources": []
   },
   {
@@ -1882,7 +1882,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "High-tech business park, advanced manufacturing",
     "cited_sources": []
   },
   {
@@ -1905,7 +1905,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Iconic former tower, major commercial complex (now residential)",
     "cited_sources": []
   },
   {
@@ -1930,7 +1930,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Major global bunkering & logistics hub",
     "cited_sources": []
   },
   {
@@ -1956,7 +1956,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "World\u2019s 4th largest single-site refinery, >922,000 bbl/d; makes diesel, jet fuel, LPG, naphtha, petrochemicals, base oils, carbon black",
     "cited_sources": []
   },
   {
@@ -1981,7 +1981,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Major export terminal for fuels, CO\u2082, and chemicals; integrated power/water for industrial zone",
     "cited_sources": []
   },
   {
@@ -2002,7 +2002,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Heavy manufacturing cluster: cement, steel, chemicals",
     "cited_sources": []
   },
   {
@@ -2026,7 +2026,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "140,000 bbl/d refinery, petrochemicals, jet fuel, lubes",
     "cited_sources": []
   },
   {
@@ -2050,7 +2050,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Huge cluster: plastics, chemicals, glass, metals, packaging, CO\u2082-using logistics, 7,500+ companies",
     "cited_sources": []
   },
   {
@@ -2073,7 +2073,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Oil refining, bulk chemicals, plastics, construction, services",
     "cited_sources": []
   },
   {
@@ -2096,7 +2096,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Oil, gas processing, bulk chemicals, CO\u2082 hubs",
     "cited_sources": []
   },
   {
@@ -2120,7 +2120,7 @@
     "last_updated": null,
     "electricity_price_per_kwh_usd": "0.08",
     "business_analysis": "",
-    "executive_summary": "",
+    "executive_summary": "Oil storage, blending, refining, bunkering hub",
     "cited_sources": []
   }
 ]
