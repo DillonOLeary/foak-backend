@@ -20,26 +20,46 @@ app.add_middleware(
 
 @app.get("/site-analyses/latest", response_model=List[SiteAnalysis])
 async def get_site_analyses():
-    """Load site analyses from manual data JSON file."""
-    data_file = Path("app/data/manual_data.json")
+    """Load site analyses from both manual data and analyzed sites JSON files."""
+    manual_data_file = Path("app/data/manual_data.json")
+    analyzed_data_file = Path("app/data/analyzed_sites.json")
 
-    if not data_file.exists():
+    all_sites = []
+
+    # Load manual data if it exists
+    if manual_data_file.exists():
+        try:
+            with open(manual_data_file, "r") as f:
+                manual_sites_data = json.load(f)
+            manual_sites = [
+                SiteAnalysis.model_validate(site_data)
+                for site_data in manual_sites_data
+            ]
+            all_sites.extend(manual_sites)
+        except (json.JSONDecodeError, ValueError) as e:
+            raise HTTPException(
+                status_code=500, detail=f"Error loading manual sites data: {str(e)}"
+            )
+
+    # Load analyzed data if it exists
+    if analyzed_data_file.exists():
+        try:
+            with open(analyzed_data_file, "r") as f:
+                analyzed_sites_data = json.load(f)
+            analyzed_sites = [
+                SiteAnalysis.model_validate(site_data)
+                for site_data in analyzed_sites_data
+            ]
+            all_sites.extend(analyzed_sites)
+        except (json.JSONDecodeError, ValueError) as e:
+            raise HTTPException(
+                status_code=500, detail=f"Error loading analyzed sites data: {str(e)}"
+            )
+
+    if not all_sites:
         raise HTTPException(
             status_code=404,
-            detail="Manual data file not found.",
+            detail="No site analysis data found. Make sure manual_data.json or analyzed_sites.json exist.",
         )
 
-    try:
-        with open(data_file, "r") as f:
-            sites_data = json.load(f)
-
-        # Convert JSON data back to Pydantic models
-        analyzed_sites = [
-            SiteAnalysis.model_validate(site_data) for site_data in sites_data
-        ]
-        return analyzed_sites
-
-    except (json.JSONDecodeError, ValueError) as e:
-        raise HTTPException(
-            status_code=500, detail=f"Error loading analyzed sites data: {str(e)}"
-        )
+    return all_sites
