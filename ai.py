@@ -27,8 +27,8 @@ search_tools = [tavily_search_tool(os.getenv("TAVILY_API_KEY"))]
 
 # Create the individual site analysis agent
 individual_analysis_agent = Agent(
-    # "claude-opus-4-0",
-    "claude-sonnet-4-0",
+    "claude-opus-4-0",
+    # "claude-sonnet-4-0",
     output_type=IndividualSiteAnalysis,
     tools=search_tools,
     system_prompt="""
