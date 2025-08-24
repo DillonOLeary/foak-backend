@@ -52,18 +52,20 @@ class SiteAnalysis(BaseModel):
         le=10,
         description="Overall business viability score from 1 (poor) to 10 (excellent)",
     )
-    viable_products: List[CO2Product] = Field(
-        ...,
-        description="List of viable products to produce from CO2 given the geographically sensitive market, ordered by potential (most viable first)",
+    primary_product: CO2Product = Field(
+        ..., description="Most viable product to produce from CO2 at this location"
     )
-    product_market_price: Decimal = Field(
-        ..., description="Current market price for the primary product in the region"
-    )
-
-    # Market Demand
-    can_sell_100_tons_co2_equivalent_within_100_km: bool = Field(
+    primary_product_market_price_per_ton_usd: Decimal = Field(
         ...,
-        description="Whether there's demand to convert 100 tons of CO2 annually within 100 km",
+        description="Current market price for the primary product in USD per metric ton",
+    )
+    can_sell_100_tons_primary_product_within_100_km: bool = Field(
+        ...,
+        description="Whether there's demand to sell 100 tons of the primary product annually within 100 km",
+    )
+    other_viable_products: List[CO2Product] = Field(
+        ...,
+        description="Other products that could be produced from CO2 at this location",
     )
 
     # Financial Support
@@ -72,16 +74,16 @@ class SiteAnalysis(BaseModel):
     )
 
     # Analysis Documentation
-    cited_sources: List[CitedSource] = Field(
-        ..., description="Research sources with relevant quotes supporting the analysis"
-    )
     analysis_defense: str = Field(
         ...,
-        description="Technical defense of each field's value with references to specific cited sources",
+        description="Rigorous technical justification linking cited sources to prove each field value is correct",
     )
     site_summary: str = Field(
         ...,
-        description="Executive summary of the business opportunity and recommendation",
+        description="Contextual overview of the industrial site and business opportunity",
+    )
+    cited_sources: List[CitedSource] = Field(
+        ..., description="Research sources with relevant quotes supporting the analysis"
     )
 
     # Auto-generated fields
