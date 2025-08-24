@@ -14,6 +14,8 @@ from pydantic_ai import Agent
 from pydantic_ai.common_tools.tavily import tavily_search_tool
 
 from app.models import IndividualSiteAnalysis, SiteScore
+from app.database import db_manager
+from app.db_tools import create_database_tools
 
 # Load environment variables
 load_dotenv()
@@ -25,18 +27,30 @@ logfire.instrument_pydantic_ai()
 # Get API keys
 search_tools = [tavily_search_tool(os.getenv("TAVILY_API_KEY"))]
 
+# Create database tools
+database_tools = create_database_tools()
+
+# Combine all tools
+all_tools = search_tools + database_tools
+
 # Create the individual site analysis agent
 individual_analysis_agent = Agent(
     # "claude-opus-4-0",
     "claude-sonnet-4-0",
     output_type=IndividualSiteAnalysis,
-    tools=search_tools,
+    tools=all_tools,
     system_prompt="""
 You are a meticulous industrial analyst specializing in carbon utilization technologies and market economics.
     
 Your approach is thorough and evidence-based. You never make assumptions - you research extensively to find current, verifiable data. You understand that business decisions require solid evidence, so you always document your sources and defend your conclusions with specific data points.
     
 You excel at identifying profitable opportunities by analyzing conversion costs against market prices, and you understand regional market dynamics.
+
+IMPORTANT: You have access to a PostgreSQL database containing:
+- CO2 emissions data from thermal power plants across America
+- Industrial energy rates across America
+
+Use the database tools to query this data for relevant information about the site location, energy prices, and nearby CO2 sources. This will provide you with real, structured data to support your analysis.
     """,
 )
 
@@ -44,6 +58,7 @@ You excel at identifying profitable opportunities by analyzing conversion costs 
 scoring_agent = Agent(
     "claude-opus-4-0",
     output_type=list[SiteScore],
+    tools=all_tools,  # Also give scoring agent access to database
     system_prompt="""
 You are a senior investment analyst specializing in industrial project evaluation. You apply consistent, objective criteria and avoid anchoring bias. Your scoring is based on universal benchmarks that scale across any portfolio size, focusing on fundamental economics rather than relative comparisons.
     """,
@@ -109,52 +124,60 @@ For each site, provide the EXACT location_name (copy it precisely from the input
 
 async def main():
     """Run two-stage analysis and save results."""
-    # Load sites from input file
-    input_file = Path("app/data/sites_input.json")
-    with open(input_file, "r") as f:
-        sites = json.load(f)
+    # Initialize database connection
+    await db_manager.initialize()
+    
+    try:
+        # Load sites from input file
+        input_file = Path("app/data/sites_input.json")
+        with open(input_file, "r") as f:
+            sites = json.load(f)
 
-    # Stage 1: Analyze each site individually (without scores) in parallel
-    individual_analyses = await asyncio.gather(
-        *[analyze_site(site_description) for site_description in sites]
-    )
-
-    # Stage 2: Score sites comparatively
-    site_scores = await score_sites(individual_analyses)
-
-    # Create data directory if it doesn't exist
-    data_dir = Path("app/data")
-    data_dir.mkdir(parents=True, exist_ok=True)
-
-    # Combine individual analyses with their scores using location_name
-    combined_results = []
-    for analysis in individual_analyses:
-        analysis_dict = analysis.model_dump()
-
-        # Find the matching score by exact location_name
-        matching_score = next(
-            (
-                score
-                for score in site_scores
-                if score.location_name == analysis.location_name
-            ),
-            None,
+        # Stage 1: Analyze each site individually (without scores) in parallel
+        individual_analyses = await asyncio.gather(
+            *[analyze_site(site_description) for site_description in sites]
         )
 
-        # Add viability score and ranking rationale to the analysis
-        if matching_score:
-            analysis_dict["viability_score"] = matching_score.viability_score
-            analysis_dict["ranking_rationale"] = matching_score.ranking_rationale
+        # Stage 2: Score sites comparatively
+        site_scores = await score_sites(individual_analyses)
 
-        combined_results.append(analysis_dict)
+        # Create data directory if it doesn't exist
+        data_dir = Path("app/data")
+        data_dir.mkdir(parents=True, exist_ok=True)
 
-    # Save combined results to single file
-    output_file = data_dir / "analyzed_sites.json"
-    with open(output_file, "w") as f:
-        json.dump(combined_results, f, indent=2, default=str)
+        # Combine individual analyses with their scores using location_name
+        combined_results = []
+        for analysis in individual_analyses:
+            analysis_dict = analysis.model_dump()
 
-    print("Analysis complete:")
-    print(f"- Combined results: {output_file}")
+            # Find the matching score by exact location_name
+            matching_score = next(
+                (
+                    score
+                    for score in site_scores
+                    if score.location_name == analysis.location_name
+                ),
+                None,
+            )
+
+            # Add viability score and ranking rationale to the analysis
+            if matching_score:
+                analysis_dict["viability_score"] = matching_score.viability_score
+                analysis_dict["ranking_rationale"] = matching_score.ranking_rationale
+
+            combined_results.append(analysis_dict)
+
+        # Save combined results to single file
+        output_file = data_dir / "analyzed_sites.json"
+        with open(output_file, "w") as f:
+            json.dump(combined_results, f, indent=2, default=str)
+
+        print("Analysis complete:")
+        print(f"- Combined results: {output_file}")
+    
+    finally:
+        # Always close database connection
+        await db_manager.close()
 
 
 if __name__ == "__main__":
