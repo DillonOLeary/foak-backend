@@ -100,7 +100,7 @@ Score these {len(analyses)} industrial sites using these universal benchmarks:
 
 {analyses_summary}
 
-For each site, provide the exact location_name, viability_score, and ranking_rationale based on objective criteria only. Do not reference other sites in rationales.
+For each site, provide the EXACT location_name (copy it precisely from the input - this is used as an ID), viability_score, and ranking_rationale based on objective criteria only. Do not reference other sites in rationales.
     """
 
     result = await scoring_agent.run(scoring_context)
@@ -131,7 +131,7 @@ async def main():
     for analysis in individual_analyses:
         analysis_dict = analysis.model_dump()
 
-        # Find the matching score by location_name
+        # Find the matching score by exact location_name
         matching_score = next(
             (
                 score

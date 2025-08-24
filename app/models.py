@@ -2,7 +2,7 @@ from datetime import datetime
 from decimal import Decimal
 from enum import Enum
 from functools import cached_property
-from typing import List
+from typing import List, Optional
 from uuid import UUID, uuid4
 
 from pydantic import BaseModel, Field, HttpUrl, computed_field
@@ -96,7 +96,8 @@ class SiteScore(BaseModel):
     """Site score for comparative ranking"""
 
     location_name: str = Field(
-        ..., description="Human-readable site location for matching"
+        ...,
+        description="EXACT location name from the site analysis - must match precisely as this is used as an ID for matching",
     )
     viability_score: int = Field(
         ...,
@@ -113,8 +114,8 @@ class SiteScore(BaseModel):
 class SiteAnalysis(BaseSiteAnalysis):
     """Complete site analysis with viability score (for backward compatibility)"""
 
-    viability_score: int = Field(
-        ...,
+    viability_score: Optional[int] = Field(
+        None,
         ge=1,
         le=10,
         description="Overall business viability score from 1 (poor) to 10 (excellent)",

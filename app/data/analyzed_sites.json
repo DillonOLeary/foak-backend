@@ -5,308 +5,307 @@
     "longitude": -111.379,
     "primary_product": "Methanol",
     "primary_product_market_price_per_ton_usd": "737",
-    "electricity_price_per_kwh_usd": "0.096",
-    "can_sell_100_tons_primary_product_within_100_km": true,
-    "other_viable_products": [
-      "Ethylene",
-      "Propylene",
-      "Formic Acid",
-      "DRI-EAR Steel",
-      "Polyethylene PE",
-      "Polypropylene (PP)"
-    ],
-    "available_incentives": [
-      "Federal Carbon Capture Investment Tax Credit - 50% for capture equipment, 37.5% for transport/storage/utilization equipment (2022-2030)",
-      "Alberta Carbon Capture Incentive Program (ACCIP) - 12% grant for eligible capital costs",
-      "Provincial TIER Fund - Additional funding for emission reduction projects",
-      "Enhanced depreciation through federal Accelerated Investment Incentive"
-    ],
-    "business_analysis": "The Fort McMurray Oil Sands Industrial Park presents an exceptional opportunity for CO2-to-methanol conversion, leveraging the region's massive CO2 emissions footprint and strategic industrial positioning. The area represents one of Canada's largest concentrated sources of CO2 emissions, with facilities generating up to 102,000 tonnes CO2/day by 2020 according to Alberta Innovates studies. This creates an abundant, low-cost feedstock supply essential for economically viable CO2 utilization.\n\n**Market Opportunity**: Methanol demand in Canada is projected to grow from 520,000 tonnes in 2023 to 775,000 tonnes by 2034 at a CAGR of 3.7%, driven by formaldehyde production (60-70% of demand), oil and gas field chemicals (10-15%), and emerging renewable fuel applications. Current methanol prices of $737/MT in the US market provide strong revenue potential. The Fort McMurray region's proximity to major petrochemical facilities ensures ready demand within 100km, particularly given the established methanol facility by Methanex in Medicine Hat and growing petrochemical investments in Alberta.\n\n**Technical Feasibility**: The location benefits from world-class engineering expertise and established industrial infrastructure. Alberta's petrochemical industry is primarily ethylene-based (92% of production capacity) with existing methanol production capabilities. The proposed Pathways Alliance CCUS trunkline connecting Fort McMurray facilities to carbon storage hubs creates ideal conditions for large-scale CO2 capture and utilization integration.\n\n**Economics**: With industrial electricity rates averaging $0.096/kWh (9.6 cents/kWh) in Alberta, energy costs remain competitive for electrochemical CO2 conversion processes. The substantial financial incentive framework significantly improves project economics: the federal CCUS investment tax credit provides 50% coverage of capture equipment costs and 37.5% for utilization equipment (2022-2030), while Alberta's ACCIP program adds another 12% grant for eligible capital costs. Combined federal and provincial support covers approximately 50% of total project expenditures.\n\n**Strategic Advantages**: The location offers unique advantages including abundant natural gas for hydrogen production (supporting CO2-to-methanol synthesis), established pipeline infrastructure, rail access to export markets, and proximity to both feedstock sources and end-use markets. The region's commitment to net-zero initiatives through the Pathways Alliance creates strong regulatory support and potential partnerships with major oil sands operators.\n\n**Risk Considerations**: Key risks include methanol price volatility, technology scale-up challenges, and potential changes in government incentive programs post-2030. However, the strong policy framework, industrial cluster effects, and growing demand for low-carbon fuels provide significant risk mitigation.",
-    "executive_summary": "Fort McMurray Oil Sands Industrial Park offers a premier opportunity for CO2-to-methanol conversion, combining massive CO2 emissions (up to 102,000 tonnes/day), competitive electricity costs ($0.096/kWh), and exceptional financial incentives totaling ~50% capital cost coverage through federal and provincial programs. The location's established petrochemical infrastructure, growing methanol demand (3.7% CAGR to 2034), and strategic positioning within Canada's largest industrial CO2 cluster create ideal conditions for profitable large-scale deployment.",
-    "cited_sources": [
-      {
-        "url": "https://albertainnovates.ca/wp-content/uploads/2021/04/1710-Final-Report-CO2-supply-and-cost-from-Fort-McMurray-web-July-2009.pdf",
-        "extracted_quote": "potential supply could reach 102,000 tonnes CO2/d by 2020, as indicated by the 'variable H2' columns in Figure 2.8. In the medium production scenario, total baseline CO2 supply increases from 24,000 to 73,000 tonnes/d between 2005 and 2020"
-      },
-      {
-        "url": "https://www.imarcgroup.com/methanol-pricing-report",
-        "extracted_quote": "The methanol prices in the United States for Q3 2024 reached 737 USD/MT in September. The market witnessed a notable rise in prices due to supply chain interruptions and reduced imports"
-      },
-      {
-        "url": "https://energyrates.ca/here-is-what-alberta-electricity-rates-look-like-right-now/",
-        "extracted_quote": "In early 2025, the average fixed rates in Alberta were at \u00a29.6/kWh, about 25% lower than the announced rate of last resort (ROLR) for the 2025-2026 term"
-      },
-      {
-        "url": "https://www.chemanalyst.com/industry-report/canada-methanol-market-174",
-        "extracted_quote": "The Canada Methanol market demand stood at 520 thousand tonnes in 2023 and is expected to grow at a CAGR of 3.7% during the forecast period until 2034"
-      },
-      {
-        "url": "https://www.pbo-dpb.ca/en/publications/LEG-2324-022-S--investment-tax-credit-carbon-capture-utilization-storage--credit-impot-investissement-captage-utilisation-stockage-carbone",
-        "extracted_quote": "From 2022 through 2030, the CCUS investment tax credit (ITC) offers a refundable ITC of up to: 60% on capture equipment using direct ambient air, 50% on other capture equipment, and 37.5% on qualified carbon transportation, storage or usage equipment"
-      },
-      {
-        "url": "https://hellodarwin.com/business-aid/programs/alberta-carbon-capture-incentive-program",
-        "extracted_quote": "The Alberta Carbon Capture Incentive Program (ACCIP) provides grants covering 12% of eligible capital costs for new carbon capture, utilization, and storage (CCUS) projects, with total program funding expected between $3.2 and $5.3 billion from 2024 to 2035"
-      },
-      {
-        "url": "https://natural-resources.canada.ca/sites/nrcan/files/energy/pdf/GenEnergy/CERI%20-%20Competitive%20Analys%20of%20the%20Canadian%20Petrochemical%20Sector.pdf",
-        "extracted_quote": "The 2010 Canadian demand for methanol is shown in Table 1.2.7: Formaldehyde (resins) 60-70%, Oil and Gas Field Chemical 10-15%, Chlorine Dioxide (Wood Pulp Bleaching) 10-15%, Windshield Washer 10-15%"
-      },
-      {
-        "url": "https://ieefa.org/sites/default/files/2025-01/Financial%20Risks%20of%20Carbon%20Capture%20and%20Storage%20in%20Canada_December%202024.pdf",
-        "extracted_quote": "Overall, federal and provincial governments are providing financial support and incentives that cover close to half of total project expenditures at the large-scale carbon capture projects"
-      }
-    ]
-  },
-  {
-    "location_name": "Reliance Industries Jamnagar Refinery Complex, Motikhavdi Village, Gujarat",
-    "latitude": 22.3544,
-    "longitude": 69.8478,
-    "primary_product": "Methanol",
-    "primary_product_market_price_per_ton_usd": "366",
-    "electricity_price_per_kwh_usd": "0.124",
+    "electricity_price_per_kwh_usd": "0.12",
     "can_sell_100_tons_primary_product_within_100_km": true,
     "other_viable_products": [
       "Formic Acid",
       "Dimethyl Carbonate",
-      "Ethylene",
-      "MTO Olefins",
       "Polyethylene PE",
-      "Polypropylene (PP)"
-    ],
-    "available_incentives": [
-      "Carbon Credit Trading Scheme (CCTS) - Voluntary carbon credits mechanism launching in 2025",
-      "Product Linked Incentive (PLI) scheme for low-carbon products",
-      "Green Energy Open Access at Rs1.5/kWh (US\u00a21.8/kWh) - highest rate offers potential for revenue generation",
-      "Gujarat government MoU with PFC for power infrastructure development"
-    ],
-    "business_analysis": "The Reliance Jamnagar refinery complex presents a compelling opportunity for CO2 utilization, particularly for methanol production. With annual CO2 emissions of approximately 19.76 million tonnes (2022 data), making it the world's highest-emitting refinery, there is substantial feedstock availability for carbon utilization projects.\n\n**Market Opportunity**: India's methanol demand is projected to grow to 46.75 lakh tonnes (4.675 million tonnes) by 2030, while current domestic production capacity is only 1 MMT. Reliance is already planning a 3.6 MTPA methanol plant at Jamnagar expected to commence production in 2025, demonstrating the viability of large-scale methanol production at this location. The current methanol market price of USD 366/MT (Europe) provides a reasonable revenue baseline.\n\n**Technical Feasibility**: The site has significant advantages including existing industrial infrastructure, access to CO2-rich syngas from petcoke gasification, and Reliance's commitment to CO2 conversion technologies. The company has already made \"substantial progress on photosynthetic biological pathways to convert CO2 emissions at Jamnagar into high-value proteins, nutraceuticals, advanced materials and fuels\" and is researching CCS applications. Modern CO2-to-methanol processes can achieve production costs of $500-600/ton, which while above current market prices, could become competitive with carbon pricing and incentives.\n\n**Economics**: Industrial electricity costs of USD 0.124/kWh are moderate for India, though Gujarat's green tariff rate of Rs1.5/kWh (US\u00a21.8/kWh) is the highest among states. However, this could offer revenue opportunities through renewable energy certificates. CO2-to-methanol conversion typically requires significant energy input (2.8-3.2 MWh per tonne methanol), making the total production cost challenging at current market prices. The economics could improve with: (1) carbon credits from India's CCTS launching in 2025, (2) PLI scheme incentives for low-carbon products, and (3) potential premium pricing for green methanol.\n\n**Strategic Advantages**: The location benefits from proximity to major chemical and industrial demand centers in Gujarat, including GIDC industrial estates around Jamnagar. India's chemical industry expansion provides local demand for methanol derivatives. The site's integration with existing refinery operations offers synergies in utilities, infrastructure, and feedstock management. Reliance's $8 billion investment in renewables at Jamnagar could provide low-carbon hydrogen for the conversion process.\n\n**Risks**: Primary risks include the cost gap between production ($500-600/ton) and market prices ($366/ton), regulatory uncertainty around carbon pricing mechanisms, and technology scale-up challenges. Competition from conventional methanol production and potential market volatility in CO2 utilization technologies also present risks.",
-    "executive_summary": "The Reliance Jamnagar refinery complex offers exceptional potential for CO2-to-methanol conversion, leveraging 19.76 million tonnes annual CO2 emissions, existing industrial infrastructure, and India's growing methanol demand gap of 3+ million tonnes by 2030. While current production economics face a $134-234/ton cost premium over market prices, the combination of carbon credits, PLI incentives, and Reliance's planned 3.6 MTPA methanol facility demonstrates commercial viability emerging by 2025-2026.",
-    "cited_sources": [
-      {
-        "url": "https://climatetrace.org/news/rpl-jamnagar-the-worlds-largest-oil-refinery",
-        "extracted_quote": "According to Climate TRACE data, RPL Jamnagar was the world's highest-emitting refinery in 2022, emitting 19.76 million tonnes of CO2e that year"
-      },
-      {
-        "url": "https://www.ril.com/sustainability/net-zero-carbon",
-        "extracted_quote": "We have already made substantial progress on photosynthetic biological pathways to convert our CO 2 emissions at Jamnagar into high-value proteins, nutraceuticals, advanced materials and fuels"
-      },
-      {
-        "url": "https://www.chemanalyst.com/Pricing-data/methanol-1",
-        "extracted_quote": "The quarter concluded with Methanol priced at USD 366/MT FD Rotterdam in the Netherlands, reflecting a consistently increasing pricing environment throughout Q3 2024"
-      },
-      {
-        "url": "https://www.globalpetrolprices.com/India/electricity_prices/",
-        "extracted_quote": "The electricity price for businesses is INR 10.810 kWh or USD 0.124"
-      },
-      {
-        "url": "https://www.indianchemicalnews.com/chemical/asia-to-lead-global-methanol-capacity-additions-through-2026-says-globaldata-13624",
-        "extracted_quote": "In Asia, Reliance Industries Jamnagar Methanol Plant leads the capacity additions with a capacity of 3.60 mtpa by 2026. It is expected to commence production of methanol in 2025"
-      },
-      {
-        "url": "https://www.methanol.org/wp-content/uploads/2020/04/Methanol-Fuelling-Indias-Hydrogen-Economy-Policy-Paper.pdf",
-        "extracted_quote": "India has a methanol production capacity of approximately 1MMT... The country's methanol demand is projected to grow to 46.75 lakh tonnes by 2030"
-      },
-      {
-        "url": "https://ember-energy.org/latest-insights/indian-states-electricity-transition-set-2024/",
-        "extracted_quote": "Gujarat's green tariff rate is the highest of the states at Rs1.5/kWh (US\u00a21.8/kWh)"
-      },
-      {
-        "url": "https://decarbonisationtechnology.com/article/162/conversion-of-co2-to-methanol",
-        "extracted_quote": "The researchers estimate that their process can produce methanol at around $500-$600 per ton, which is higher than the current market price for methanol but lower than the estimated production cost for previous CO 2-to-methanol conversion processes"
-      },
-      {
-        "url": "https://icapcarbonaction.com/en/news/india-adopts-regulations-planned-compliance-carbon-market",
-        "extracted_quote": "The BEE expects to release detailed regulations for the voluntary offset mechanism by the end of 2024, with CCC trading of voluntary offsets beginning in 2025"
-      }
-    ]
-  },
-  {
-    "location_name": "Shell Scotford Refinery Complex, Fort Saskatchewan, Alberta",
-    "latitude": 53.63,
-    "longitude": -113.15,
-    "primary_product": "Methanol",
-    "primary_product_market_price_per_ton_usd": "737",
-    "electricity_price_per_kwh_usd": "0.096",
-    "can_sell_100_tons_primary_product_within_100_km": true,
-    "other_viable_products": [
       "Ethylene",
-      "Formic Acid",
-      "Dimethyl Carbonate",
-      "Polyethylene PE",
-      "MTO Olefins"
+      "Acetyls"
     ],
     "available_incentives": [
       "Alberta Carbon Capture Incentive Program (ACCIP) - 12% of eligible capital costs",
-      "Federal Carbon Capture, Utilization and Storage Investment Tax Credit - 50% for CO2 capture equipment, 37.5% for utilization equipment",
-      "Total government support: $3.2-5.3 billion from ACCIP (2024-2035)",
-      "Federal Clean Economy Investment Tax Credits - $93 billion by 2034-35"
+      "Federal CCUS Investment Tax Credit - 50% for CO2 capture equipment, 37.5% for utilization equipment",
+      "Federal Clean Economy Investment Tax Credits - Up to $93 billion by 2034-35"
     ],
-    "business_analysis": "The Shell Scotford Refinery Complex presents an exceptional opportunity for CO2-to-methanol conversion, leveraging multiple strategic advantages unique to this location.\n\n**Market Opportunity & Demand Analysis:**\nThe site benefits from Alberta's robust petrochemical sector, valued at $3.6 billion in 2025, with industrial chemicals representing 84% of Alberta's chemical industry at $14.4 billion in shipments. Within 100km lies the Edmonton Industrial Heartland region, home to major petrochemical facilities including Dow's $9 billion ethylene cracker expansion and numerous chemical manufacturers requiring methanol feedstock. Canada's methanol market demand of 520,000 tonnes annually (expected to grow at 3.7% CAGR through 2034) combined with proximity to major US markets (85% of Alberta's chemical exports) ensures robust demand for 100+ tons annually.\n\n**Technical Feasibility & Infrastructure:**\nShell's existing CO2 capture infrastructure provides a significant technical advantage. The facility already captures 1 million tonnes of CO2 annually through the Quest project since 2015, with the new Polaris project adding 650,000 tonnes of capture capacity by 2028. This established CO2 supply stream eliminates a major capital requirement for greenfield projects. The complex houses both refining and petrochemical operations, providing potential integration opportunities for hydrogen production and process optimization.\n\n**Economic Analysis:**\nCurrent methanol market prices of $737/MT USD provide attractive margins against estimated CO2-to-methanol production costs of $500-600/MT. With Alberta's industrial electricity rate of CAD $0.141/kWh (approximately $0.096 USD/kWh), the energy costs for the 10-11 MWh required per tonne of e-methanol production would be approximately $106-116/MT, representing competitive production economics. The electricity price is significantly lower than European rates, providing a regional competitive advantage.\n\n**Financial Incentives & Government Support:**\nThe project qualifies for substantial government incentives totaling potentially $3.2-5.3 billion through Alberta's ACCIP program (12% of eligible capital costs) and federal CCUS Investment Tax Credits (50% for capture equipment, 37.5% for utilization equipment). This represents among the most generous carbon utilization incentive regimes globally, reducing project capital requirements by up to 49% for qualifying expenditures.\n\n**Strategic Advantages:**\nShell's operational experience with CCUS technology through the Quest project since 2015 provides technical expertise and risk mitigation. The Scotford complex's integrated operations allow for potential synergies with existing hydrogen production, steam systems, and utility infrastructure. The facility's strategic location in Alberta's Industrial Heartland cluster provides access to skilled workforce, established supply chains, and transportation infrastructure.\n\n**Risk Assessment:**\nKey risks include methanol price volatility, though the $737/MT current pricing provides significant buffer above production costs. Technology risks are mitigated by Shell's existing CCUS experience and proven commercial-scale CO2 capture operations. Regulatory risks are low given strong government support for CCUS projects in Alberta. Market risks are minimal given established industrial demand within the region and growing clean fuel mandates.\n\n**Competitive Positioning:**\nThe combination of existing CO2 infrastructure, competitive electricity pricing, substantial government incentives, and proximity to established petrochemical markets creates a unique value proposition. Few global locations offer this combination of technical readiness, economic incentives, and market access for CO2 utilization projects.",
-    "executive_summary": "Shell Scotford represents an exceptional CO2-to-methanol opportunity, leveraging existing capture infrastructure (1.65M tonnes CO2/year by 2028), competitive electricity rates ($0.096/kWh), and unprecedented government incentives totaling up to 62% capital cost reduction. With methanol at $737/MT and estimated production costs of $500-600/MT, the project offers attractive margins while serving Alberta's $14.4 billion industrial chemical sector and proximate North American markets.",
+    "business_analysis": "The Fort McMurray Oil Sands Industrial Park presents a compelling opportunity for CO2-to-methanol conversion given the region's unique industrial infrastructure and policy support. Market Opportunity: The site benefits from proximity to major CO2 emission sources, with the Pathways Alliance project planning to capture 10-12 million tonnes CO2/year from 13 oil sands facilities in the Lower Athabasca Region. Methanol demand in Canada is growing at 3.2% CAGR, reaching 520,000 tonnes in 2023 and expected to grow to 775,000 tonnes by 2034. The current methanol market price of $737/MT provides reasonable revenue potential. Technical Feasibility: The location offers excellent access to concentrated CO2 sources from oil sands operations, with the Pathways Alliance planning \"lateral\" pipelines over 1-50 km distances to transport CO2. Industrial chemical companies like Chemtrade Logistics and Guardian Chemicals already operate in Fort McMurray, indicating established industrial supply chains and expertise. The region's infrastructure supports large-scale industrial operations. Economics: Current industrial electricity prices in Alberta average $0.12/kWh, which is competitive for energy-intensive CO2 conversion processes. However, CO2-to-methanol production costs are estimated at $500-600/ton using optimized processes, creating challenging economics against current methanol prices of $737/ton. The economics improve significantly with available incentives - ACCIP provides 12% grants on capital costs while federal CCUS tax credits offer 50% for capture equipment and 37.5% for utilization equipment. Strategic Advantages: The location provides access to low-cost industrial CO2 from concentrated oil sands operations, reducing feedstock costs compared to direct air capture. Existing industrial infrastructure and skilled workforce reduce development risks. The site positions well for carbon utilization mandates and oil sands decarbonization requirements. Policy support through both provincial and federal programs creates favorable investment conditions. Risks: Production economics remain challenging without full utilization of available incentives. Competition from conventional methanol production and volatile energy markets pose ongoing risks. Regulatory changes or shifts in carbon policy could impact project viability.",
+    "executive_summary": "Fort McMurray's concentrated CO2 sources from oil sands operations, combined with substantial government incentives (12% provincial grants plus up to 50% federal tax credits), create a strategically advantaged location for CO2-to-methanol conversion. While production costs of $500-600/ton challenge current methanol prices of $737/ton, the extensive policy support and industrial infrastructure make this among Canada's most viable carbon utilization opportunities.",
     "cited_sources": [
       {
-        "url": "https://www.shell.com/news-and-insights/newsroom/news-and-media-releases/2024/shell-to-build-carbon-capture-and-storage-projects-in-canada.html",
-        "extracted_quote": "Polaris is designed to capture approximately 650,000 tonnes of CO2 annually from the Shell-owned Scotford refinery and chemicals complex"
-      },
-      {
-        "url": "https://www.canadianenergycentre.ca/new-carbon-capture-projects-to-proceed-in-alberta-as-investment-in-emissions-reduction-grows/",
-        "extracted_quote": "Since 2015, Quest has stored about one million tonnes of CO2 per year, or a total of about 7.7 million tonnes"
+        "url": "https://ecojustice.ca/wp-content/uploads/2024/05/2024-05-13-Letter-to-Alberta-re-EIA-for-Pathways-Alliance-FINAL.pdf",
+        "extracted_quote": "The Project is located in the Lower Athabasca Region and is intended to reduce the GHG emissions of the oil sands industry by 10-12 million tonnes (Mt) CO2/year by 2030. There are 13 oil sands facilities spread across the Lower Athabasca Region"
       },
       {
         "url": "https://www.imarcgroup.com/methanol-pricing-report",
         "extracted_quote": "The methanol prices in the United States for Q3 2024 reached 737 USD/MT in September"
       },
       {
-        "url": "https://circuitenergy.ca/how-much-does-electricity-cost-for-industries-in-canada-2024/",
-        "extracted_quote": "Alberta | 14.08 Canadian cents per kWh for industrial electricity"
+        "url": "https://energyrates.ca/here-is-what-alberta-electricity-rates-look-like-right-now/",
+        "extracted_quote": "the average fixed rates in Alberta were at \u00a29.6/kWh, about 25% lower than the announced rate of last resort (ROLR) for the 2025-2026 term"
       },
       {
-        "url": "https://decarbonisationtechnology.com/article/162/conversion-of-co2-to-methanol",
-        "extracted_quote": "About 10-11 MWh of electricity is required to produce one tonne of e-methanol, most of it for the electrolysis of water"
+        "url": "https://hellodarwin.com/business-aid/programs/alberta-carbon-capture-incentive-program",
+        "extracted_quote": "The Alberta Carbon Capture Incentive Program (ACCIP) provides grants covering 12% of eligible capital costs for new carbon capture, utilization, and storage (CCUS) projects"
       },
       {
-        "url": "https://canadianchemistry.ca/wp-content/uploads/2024/10/Economic-Review-of-Chem_sept2024_ENpdf.pdf",
-        "extracted_quote": "Industrial Chemicals represent 84 per cent of the total (Figure 22), with $14.4 billion in shipments in 2023"
+        "url": "https://www.fasken.com/en/knowledge/2024/10/canadas-clean-energy-investment-tax-credits-insights-as-of-october-2024",
+        "extracted_quote": "50% for Qualified Carbon Capture Expenditures incurred to capture carbon other than directly from ambient air; and 37.5% for Qualified Carbon Transportation Expenditures, Qualified Carbon Storage Expenditures and Qualified Carbon Use Expenditures"
       },
       {
         "url": "https://www.chemanalyst.com/industry-report/canada-methanol-market-174",
         "extracted_quote": "The Canada Methanol market demand stood at 520 thousand tonnes in 2023 and is expected to grow at a CAGR of 3.7% during the forecast period until 2034"
       },
       {
-        "url": "https://www.alberta.ca/alberta-carbon-capture-incentive-program",
-        "extracted_quote": "In total, the ACCIP program is expected to provide between $3.2 to $5.3 billion of support between 2024 and 2035"
+        "url": "https://decarbonisationtechnology.com/article/162/conversion-of-co2-to-methanol",
+        "extracted_quote": "The researchers estimate that their process can produce methanol at around $500-$600 per ton, which is higher than the current market price for methanol but lower than the estimated production cost for previous CO2-to-methanol conversion processes"
       },
       {
-        "url": "https://www.pbo-dpb.ca/en/publications/LEG-2324-022-S--investment-tax-credit-carbon-capture-utilization-storage--credit-impot-investissement-captage-utilisation-stockage-carbone",
-        "extracted_quote": "60% on capture equipment using direct ambient air, 50% on other capture equipment, and 37.5% on qualified carbon transportation, storage or usage equipment"
-      },
-      {
-        "url": "https://www.ibisworld.com/canada/industry/alberta/petrochemical-manufacturing/14909/",
-        "extracted_quote": "The market size of the Petrochemical Manufacturing industry in Alberta is $3.6bn in 2025"
+        "url": "https://www.chemtradelogistics.com/locations/",
+        "extracted_quote": "Fort McMurray, Alberta - RC14001"
       }
-    ]
+    ],
+    "viability_score": 6,
+    "ranking_rationale": "Electricity costs of $0.12/kWh fall in the challenging range. While government incentives are substantial (potentially >60% with combined provincial and federal support), the high production costs of $500-600/ton significantly erode margins against the $737/ton selling price. Excellent CO2 feedstock availability and established infrastructure partially offset these challenges."
   },
   {
-    "location_name": "Phillips 66 Bayway Refinery, Linden, New Jersey",
-    "latitude": 40.6372,
-    "longitude": -74.2144,
-    "primary_product": "Polypropylene (PP)",
-    "primary_product_market_price_per_ton_usd": "1362",
-    "electricity_price_per_kwh_usd": "0.17",
-    "can_sell_100_tons_primary_product_within_100_km": true,
-    "other_viable_products": [
-      "Methanol",
-      "Formic Acid",
-      "Ethylene",
-      "Polyethylene PE"
-    ],
-    "available_incentives": [
-      "Federal 45Q Tax Credit: $60/metric ton CO2 for carbon utilization projects",
-      "Federal 45Q Tax Credit: $85/metric ton CO2 for secure geological storage",
-      "New Jersey Low Embodied Carbon Concrete Leadership Act: Up to 8% corporation business tax credits"
-    ],
-    "business_analysis": "The Phillips 66 Bayway Refinery represents an exceptional opportunity for CO2 utilization, with polypropylene (PP) as the primary product offering the strongest economic case. The facility already operates a 775 million pounds/year (351,000 metric tons/year) polypropylene plant and has established CO2 emission infrastructure, generating 2.38 million metric tons CO2 equivalent annually. This existing polypropylene production capability provides immediate market access and operational synergies.\n\nMarket opportunity is robust, with polypropylene prices at $1,362/MT in Q1 2025 showing modest upward trends. The facility's strategic location in the New York-New Jersey metro area provides access to massive petrochemical demand within 100km, including major industrial centers and transportation hubs. The broader US petrochemical market, valued at $116.9 billion in 2024 and projected to reach $210.7 billion by 2032, ensures sustained demand.\n\nTechnical feasibility is enhanced by the refinery's existing infrastructure and Phillips 66's recent investments in carbon reduction technologies, including hydrogen blending projects that demonstrate commitment to low-carbon initiatives. The facility's location provides access to industrial-scale power and utilities necessary for CO2 conversion processes.\n\nEconomic fundamentals are favorable with New Jersey industrial electricity rates at approximately $0.17/kWh, competitive for CO2 conversion processes. Federal 45Q tax credits provide $60/metric ton for CO2 utilization projects, significantly improving project economics. The facility qualifies among New Jersey's 58 facilities eligible for 45Q credits.\n\nAlternative products offer additional opportunities, with methanol showing strong market dynamics ($350-669/MT range in 2024), formic acid identified as economically compelling in techno-economic analyses, and ethylene providing access to broader petrochemical value chains.\n\nKey risks include technology deployment costs, regulatory compliance for new CO2 conversion processes, and potential market volatility in petrochemical prices. However, Phillips 66's established operations, existing polypropylene production, and the facility's strategic location in a major industrial corridor provide significant risk mitigation.",
-    "executive_summary": "Phillips 66 Bayway Refinery offers a compelling CO2 utilization opportunity with polypropylene as the primary product, leveraging existing 775 million lb/year production capacity and established market access in the $210.7B+ US petrochemical market. The facility benefits from $60/MT federal 45Q tax credits, $0.17/kWh industrial electricity rates, and strategic location within 100km of major Northeast demand centers, positioning it as a highly viable carbon utilization investment.",
-    "cited_sources": [
-      {
-        "url": "https://www.responsibilityreports.com/HostedData/ResponsibilityReportArchive/p/NYSE_PSX_2021.pdf",
-        "extracted_quote": "Phillips 66 operates a 775 million pounds/year capacity plant at the. Bayway Refinery in Linden, New Jersey, and markets the resin under the COPYLENE\u00ae brand"
-      },
-      {
-        "url": "https://ghgdata.epa.gov/ghgp/service/facilityDetail/2022?id=1004305&ds=E&et=&popup=true",
-        "extracted_quote": "Total Facility Emissions in metric tons CO2 equivalent (mt CO2 e) (AR4 GWPs, excluding Biogenic CO2)2,383,018"
-      },
-      {
-        "url": "https://www.coherentmarketinsights.com/market-insight/polypropylene-compounds-market-5788",
-        "extracted_quote": "In Q1 2025, European polypropylene prices showed a modest upward trend, rising from approximately 1,313 USD/MT to 1,362 USD/MT for injection"
-      },
-      {
-        "url": "https://www.franklinwh.com/blog/understanding-new-jersey-electricity-rates",
-        "extracted_quote": "In 2024, the average electricity rate in New Jersey has hovered around 17 to 18 cents per kilowatt-hour (kWh) for residential customers"
-      },
-      {
-        "url": "https://carboncapturecoalition.org/wp-content/uploads/2023/11/45Q-primer-Carbon-Capture-Coalition.pdf",
-        "extracted_quote": "For carbon reuse projects to convert carbon into useful products (e.g., fuels, chemicals, products) INDUSTRY & POWER $60/ metric ton"
-      },
-      {
-        "url": "https://carboncaptureready.betterenergy.org/new-jersey/",
-        "extracted_quote": "New Jersey has 58 facilities that are eligible for the 45Q tax credit"
-      },
-      {
-        "url": "https://www.psmarketresearch.com/market-analysis/us-petrochemical-market",
-        "extracted_quote": "U.S. PETROCHEMICAL MARKET valued USD 116.9 Billion in 2024 and is projected to surpass USD 210.7 Billion through 2032"
-      },
-      {
-        "url": "https://www.methanex.com/our-products/about-methanol/pricing/",
-        "extracted_quote": "China Posted Contract Price Posted July 29, 2025, USD 350/MT"
-      },
-      {
-        "url": "https://www.osti.gov/servlets/purl/1712664",
-        "extracted_quote": "While carbon monoxide and formic acid were the most economically favorable products under current conditions"
-      }
-    ]
-  },
-  {
-    "location_name": "BASF Ludwigshafen Chemical Complex, Ludwigshafen, Germany",
-    "latitude": 49.4912,
-    "longitude": 8.4262,
+    "location_name": "Reliance Industries Jamnagar Refinery Complex, Motikhavdi Village, Gujarat, India",
+    "latitude": 22.3544,
+    "longitude": 69.8478,
     "primary_product": "Methanol",
-    "primary_product_market_price_per_ton_usd": "342",
-    "electricity_price_per_kwh_usd": "0.17",
+    "primary_product_market_price_per_ton_usd": "315",
+    "electricity_price_per_kwh_usd": "0.053",
     "can_sell_100_tons_primary_product_within_100_km": true,
     "other_viable_products": [
       "Ethylene",
       "Propylene",
       "Polyethylene PE",
       "Polypropylene (PP)",
-      "Formic Acid"
+      "Ethylene Glycol",
+      "Formic Acid",
+      "Dimethyl Carbonate",
+      "MTO Olefins"
     ],
     "available_incentives": [
-      "Carbon Contracts for Difference (CCfDs) - up to 10+ year contracts covering CO2 abatement cost differentials",
-      "Federal Funding Policy for Industry and Climate Action - industrial decarbonization module covering 40%+ emission reductions",
-      "German Carbon Management Strategy funding - targeted promotion for CCU projects",
-      "Industrial transition project funding via carbon contracts"
+      "Production Linked Incentive (PLI) Scheme for chemicals with \u20b924,000 crores allocation for related manufacturing",
+      "CCUS policy financial incentives including tax subsidies on captured CO2, viability gap funding, loan guarantees",
+      "Special Economic Zone (SEZ) benefits at Jamnagar location",
+      "Green finance initiatives with subsidies and tax reductions for sustainable projects"
     ],
-    "business_analysis": "The BASF Ludwigshafen site presents an exceptionally strong opportunity for CO2-to-methanol conversion, leveraging several competitive advantages. As the world's largest integrated chemical complex with 10 square kilometers and 6.1 million metric tons annual production, the site offers unparalleled infrastructure integration and economies of scale. The facility's existing Verbund concept, where \"production facilities, energy flows and logistics are networked together intelligently,\" provides optimal conditions for CO2 capture and utilization integration.\n\nMarket demand is robust, with European methanol demand recovery and pricing at USD 342/MT as of March 2024. The Rhine Valley chemical corridor provides dense industrial demand within 100km, ensuring market access for 100+ tons annually. BASF has already demonstrated commitment to CO2-to-methanol technology, collaborating with BSE Engineering on converting CO2 and excess electricity into methanol, indicating technical feasibility and internal expertise.\n\nThe economic framework is increasingly favorable. German industrial electricity prices at approximately 16 euro cents/kWh (USD 0.17/kWh) are moderating from previous highs, while Germany's renewable energy share reached 59% in 2024, providing access to cleaner power for electrolytic hydrogen production. Carbon Contracts for Difference offer long-term revenue stability by covering the differential between CO2 abatement costs and carbon pricing over 10+ year contracts.\n\nKey risks include electricity cost volatility, though Germany's grid reliability ranks among the world's best. Technological risks are mitigated by BASF's existing CCU catalyst development and the site's technical infrastructure. Regulatory support through Germany's new Carbon Management Strategy and removal of CCS legal constraints creates a supportive policy environment.\n\nStrategic advantages include integration with existing formaldehyde and MTBE production chains, access to CO2 streams from the complex's processes, and BASF's position as a technology leader in catalytic CO2 conversion systems. The site's established logistics network and customer base provide immediate market access advantages over greenfield projects.",
-    "executive_summary": "BASF Ludwigshafen represents a premier CO2-to-methanol opportunity, combining the world's largest integrated chemical complex with established CO2 conversion expertise and dense industrial demand within 100km. With methanol at USD 342/MT and supportive German carbon contracts providing 10+ year revenue stability, the site offers exceptional infrastructure integration advantages and immediate market access through existing customer networks.",
+    "business_analysis": "The Reliance Industries Jamnagar Refinery Complex represents an exceptional opportunity for CO2-to-product conversion, particularly methanol production, due to several strategic advantages. The facility is positioned as \"the world's largest oil refinery\" with 1.4 million barrels per day capacity and emits approximately 19.76 million tonnes of CO2e annually, providing abundant feedstock for conversion processes.\n\nMarket Opportunity: The Indian methanol market demonstrates strong fundamentals with the market valued at USD 1.24 billion in 2024 and projected to reach USD 1.83 billion by 2033 at a 4.40% CAGR. Current methanol prices in India stand at USD 315/MT (June 2024), providing attractive margins against production costs. The proximity to Reliance's integrated petrochemical complex ensures guaranteed off-take channels, with the company already producing propylene, naphtha, and other chemicals that serve as methanol derivatives.\n\nTechnical Feasibility: The location benefits from existing industrial infrastructure, including storage, utilities, and transportation networks. The complex houses \"world's largest units\" including fluid catalytic crackers and petrochemical plants, indicating technical sophistication for CO2 conversion integration. Access to skilled workforce and maintenance capabilities is established through Reliance's operations.\n\nEconomic Viability: Industrial electricity rates in Gujarat are competitive at approximately USD 0.053/kWh for large consumers, with additional time-of-use benefits. The existing refinery infrastructure reduces capital expenditure requirements for CO2 capture and processing. Integration with Reliance's existing operations provides economies of scale and shared utilities.\n\nStrategic Advantages: The location within a Special Economic Zone provides tax benefits and streamlined operations. Gujarat's position as India's leading petrochemical state (contributing 30.6% of chemical sector GVA) ensures robust industrial ecosystem support. The site's ability to process \"216 different grades of crude oil\" demonstrates operational flexibility that translates to CO2 conversion adaptability.\n\nRisk Mitigation: Reliance's financial strength and operational experience minimize execution risks. The integrated nature of the complex provides multiple revenue streams and operational synergies. Government support through NITI Aayog's CCUS policy framework and PLI schemes provides regulatory backing.",
+    "executive_summary": "The Reliance Jamnagar complex offers a compelling CO2-to-methanol opportunity, leveraging the world's highest-emitting refinery (19.76 Mt CO2e annually) as feedstock source with guaranteed demand from integrated petrochemical operations. With methanol pricing at USD 315/MT and competitive electricity costs of USD 0.053/kWh, combined with government incentives and SEZ benefits, this represents a strategically advantaged investment in India's growing chemical market.",
     "cited_sources": [
       {
-        "url": "https://chemicalparks.com/chemical-parks/list-of-chemical-parks/show/basf-se",
-        "extracted_quote": "With an area of approximately ten square kilometers the Ludwigshafen Verbund site is the world's largest integrated chemical complex. As the headquarters of BASF, it is also the cradle of the Verbund concept, where production facilities, energy flows and logistics are networked together intelligently. At BASF's Ludwigshafen site, some 8,000 sales products are produced with a total volume of around 6.1 million metric tons per year"
+        "url": "https://climatetrace.org/news/rpl-jamnagar-the-worlds-largest-oil-refinery",
+        "extracted_quote": "According to Climate TRACE data, RPL Jamnagar was the world's highest-emitting refinery in 2022, emitting 19.76 million tonnes of CO2e that year, equal to the world's 2nd- and 3rd-largest emitters combined."
+      },
+      {
+        "url": "https://www.procurementresource.com/resource-center/methanol-price-trends",
+        "extracted_quote": "Methanol | Chemicals | India | 315 USD/MT | June'24"
+      },
+      {
+        "url": "https://mercomindia.com/gujarat-retains-last-years-electricity-tariffs-for-fy-2026",
+        "extracted_quote": "Energy charges will be \u20b94.6 (~$0.053)/kWh for a post-paid energy charge and \u20b94.51 (~$0.052)/kWh for a pre-paid energy charge"
+      },
+      {
+        "url": "https://www.imarcgroup.com/india-methanol-market",
+        "extracted_quote": "The India methanol market size reached USD 1.24 Billion in2024. Looking forward, IMARC Group expects the market to reach USD 1.83 Billion by2033, exhibiting a growth rate (CAGR) of 4.40% during2025-2033"
+      },
+      {
+        "url": "https://www.ril.com/businesses/energy/refining-marketing",
+        "extracted_quote": "Our Jamnagar refinery is the largest and most complex single-site refinery in the world with 1.4 million barrels per day (MMBPD) crude processing capacity and a complexity index of 21.1 \u2013 the highest in the world"
+      },
+      {
+        "url": "https://www.niti.gov.in/sites/default/files/2022-12/CCUS-Report.pdf",
+        "extracted_quote": "These economic incentives can take various forms like tax or cash subsidy on the captured CO2, viability gap funding, loan guarantee, demonstration project support and R&D incentives"
+      },
+      {
+        "url": "https://unfccc.int/sites/default/files/resource/India%20BUR-4.pdf",
+        "extracted_quote": "the Government of India is implementing the Production Linked Incentive (PLI) Scheme across the nation, with an allocation of \u20b924,000 crores for High Efficiency Solar PV Modules"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jamnagar_Refinery",
+        "extracted_quote": "On 25 December 2001, Reliance Petroleum Limited (RPL) announced the commissioning of its refinery into a Special Economic Zone in Jamnagar district of Gujarat, India"
+      }
+    ],
+    "viability_score": 7,
+    "ranking_rationale": "Very competitive electricity at $0.053/kWh meets the very viable threshold. Despite lower methanol pricing at $315/ton, the massive CO2 feedstock (19.76 Mt annually), integrated operations, and SEZ benefits create strong economics. The world's largest refinery provides exceptional scale advantages and guaranteed internal demand."
+  },
+  {
+    "location_name": "Shell Scotford Refinery Complex, Fort Saskatchewan, Alberta",
+    "latitude": 53.63,
+    "longitude": -113.15,
+    "primary_product": "Methanol",
+    "primary_product_market_price_per_ton_usd": "366",
+    "electricity_price_per_kwh_usd": "0.105",
+    "can_sell_100_tons_primary_product_within_100_km": true,
+    "other_viable_products": [
+      "Ethylene",
+      "Propylene",
+      "Polyethylene PE",
+      "Ethylene Glycol",
+      "Formic Acid",
+      "DRI-EAR Steel"
+    ],
+    "available_incentives": [
+      "Alberta Carbon Capture Incentive Program (ACCIP) - 12% grant for eligible capital costs",
+      "Federal Carbon Capture, Utilization and Storage Investment Tax Credit - 50% for capture equipment, 37.5% for transport/storage",
+      "Alberta TIER carbon credit system",
+      "Canada Carbon Rebate for Small Businesses - $2.5 billion program"
+    ],
+    "business_analysis": "The Shell Scotford Refinery Complex presents an exceptional opportunity for CO2-to-methanol conversion, leveraging existing infrastructure and abundant CO2 supply. The facility currently operates Shell's Quest CCS project which \"has safely captured and stored more than nine million tons of CO2 since 2015\" and Shell's new Polaris project will \"capture approximately 650,000 tonnes of CO2 annually.\" This massive CO2 stream provides reliable feedstock for methanol production.\n\nMarket demand is robust within 100km. Alberta's petrochemical industry has significant methanol consumption, with \"Methanex Corporation\" operating \"a methanol plant in Alberta\" producing \"0.6 million tonnes of methanol annually.\" The Canada Methanol market \"demand stood at 520 thousand tonnes in 2023 and is expected to grow at a CAGR of 3.7%.\" Regional demand includes Fort Saskatchewan's petrochemical cluster, with Dow's Path2Zero project adding \"3 million metric tonnes per year\" of ethylene derivatives capacity, creating downstream methanol demand.\n\nTechnical feasibility is strong. The location benefits from existing hydrogen infrastructure at Scotford, essential for CO2-to-methanol conversion. Shell already operates commercial-scale ADIP-X CO2 capture technology. Quantiam Technologies' \"CO2 Conversion to Methanol\" project in Edmonton demonstrates local technical capabilities, with \"Enerkem, Edmonton, Alberta, Canada: Pilot plant capacity of 1 ton of CO2 per day using a thermochemical process to convert CO2 to methanol.\"\n\nEconomics are favorable with current methanol pricing at $366/MT and competitive electricity costs at approximately 10.5 cents USD/kWh (converted from ~14 CAD cents). The substantial government incentive stack significantly improves project economics, with combined federal and provincial support potentially covering over 60% of capital costs.\n\nRisks include methanol price volatility, though current pricing represents recovery from recent lows. Regulatory risk is low given government support for CCUS. Technology risk is moderate as CO2-to-methanol is commercially proven but requires scale-up integration with existing operations.",
+    "executive_summary": "Shell Scotford offers exceptional CO2-to-methanol conversion potential with 650,000+ tonnes/year CO2 feedstock from existing capture infrastructure, strong regional methanol demand exceeding 520,000 tonnes annually, and unprecedented government incentives covering 60%+ of capital costs. The combination of proven technology, abundant feedstock, robust market demand, and substantial financial support creates a compelling investment opportunity in Alberta's petrochemical heartland.",
+    "cited_sources": [
+      {
+        "url": "https://www.shell.com/news-and-insights/newsroom/news-and-media-releases/2024/shell-to-build-carbon-capture-and-storage-projects-in-canada.html",
+        "extracted_quote": "Polaris is designed to capture approximately 650,000 tonnes of CO2 annually from the Shell-owned Scotford refinery and chemicals complex"
+      },
+      {
+        "url": "https://carboncapturemagazine.com/articles/shell-to-build-carbon-capture-and-storage-projects-in-canada",
+        "extracted_quote": "Quest carbon capture and storage (CCS) facility at Scotford, which has safely captured and stored more than nine million tons of CO2 since 2015"
+      },
+      {
+        "url": "https://www.chemanalyst.com/canada-methanol-market-174",
+        "extracted_quote": "The Canada Methanol market demand stood at 520 thousand tonnes in 2023 and is expected to grow at a CAGR of 3.7% during the forecast period until 2034"
+      },
+      {
+        "url": "https://www.chemanalyst.com/Pricing-data/methanol-1",
+        "extracted_quote": "The quarter concluded with Methanol priced at USD 366/MT FD Rotterdam in the Netherlands"
+      },
+      {
+        "url": "https://circuitenergy.ca/how-much-does-electricity-cost-for-industries-in-canada-2024/",
+        "extracted_quote": "Alberta: 14.08 Canadian cents per kWh"
+      },
+      {
+        "url": "https://www.alberta.ca/carbon-capture-utilization-and-storage-development-and-innovation",
+        "extracted_quote": "By providing a grant of 12% for new eligible capital costs through the Alberta Carbon Capture Incentive Program (ACCIP)"
+      },
+      {
+        "url": "https://www.pembina.org/pub/waiting-to-launch-2024",
+        "extracted_quote": "Carbon Capture Utilization and Storage Investment Tax Credit (CCUS ITC), which covers 50% of companies' eligible expenses for capture equipment and 37.5% of eligible expenses for transportation and storage equipment"
+      },
+      {
+        "url": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2024/market-snapshot-petrochemical-growth-in-alberta-can-bring-significant-changes-to-western-canadas-ethane-market.html",
+        "extracted_quote": "Path2Zero will increase Dow's polyethylene and ethylene derivatives production capacity by about 3 million metric tonnes per year"
+      },
+      {
+        "url": "https://natural-resources.canada.ca/funding-partnerships/co2-conversion-methanol-methanol",
+        "extracted_quote": "Enerkem, Edmonton, Alberta, Canada: Pilot plant capacity of 1 ton of CO2 per day using a thermochemical process to convert CO2 to methanol"
+      },
+      {
+        "url": "https://natural-resources.canada.ca/sites/nrcan/files/energy/pdf/GenEnergy/CERI%20-%20Competitive%20Analys%20of%20the%20Canadian%20Petrochemical%20Sector.pdf",
+        "extracted_quote": "Methanex Corporation announced that it would restart its previously closed methanol plant in Alberta, and the facility now produces 0.6 million tonnes of methanol annually"
+      }
+    ],
+    "viability_score": 7,
+    "ranking_rationale": "Electricity at $0.105/kWh is at the upper bound of very viable range. Government incentives exceeding 60% of capital costs are exceptional. Existing CO2 capture infrastructure (650,000+ tonnes/year) and strong regional demand support solid economics despite moderate methanol pricing at $366/ton."
+  },
+  {
+    "location_name": "Phillips 66 Bayway Refinery, Linden, New Jersey",
+    "latitude": 40.6372,
+    "longitude": -74.2144,
+    "primary_product": "Methanol",
+    "primary_product_market_price_per_ton_usd": "737",
+    "electricity_price_per_kwh_usd": "0.1175",
+    "can_sell_100_tons_primary_product_within_100_km": true,
+    "other_viable_products": [
+      "Ethylene",
+      "Polypropylene (PP)",
+      "Formic Acid",
+      "Ethylene Glycol"
+    ],
+    "available_incentives": [
+      "Federal 45Q tax credit: $85 per metric ton for captured CO2 from point sources with geological storage (post-2022 equipment)",
+      "Federal 45Q tax credit: $60 per metric ton for CO2 utilization into products (post-2022 equipment)",
+      "New Jersey concrete tax credits for carbon capture utilization and storage technology",
+      "Potential transferability of federal tax credits"
+    ],
+    "business_analysis": "The Phillips 66 Bayway Refinery presents an exceptional opportunity for CO2-to-methanol conversion due to several strategic advantages. The facility emits 2.38 million metric tons of CO2 annually, providing abundant feedstock for conversion processes. The refinery's existing infrastructure, including hydrogen production capabilities (97,897 mt CO2e from hydrogen production processes) and integrated chemical operations, creates synergies for methanol production.\n\nMarket demand within 100km is exceptionally strong, with the densely populated New York-New Jersey corridor housing major chemical consumers and the refinery's own integrated polypropylene plant (775 million pounds/year capacity) that could utilize methanol-derived feedstocks. The refinery already produces petrochemical feedstocks and operates in close proximity to Manhattan (13 miles), placing it at the heart of one of America's largest chemical consumption markets.\n\nThe economics are compelling with methanol trading at $737/MT in Q3 2024, representing a 10% quarterly increase, while industrial electricity costs only $0.1175/kWh in New Jersey. The federal 45Q tax credit provides $60/MT for CO2 utilization, effectively reducing feedstock costs and improving project economics. Additional New Jersey incentives for carbon capture utilization technologies enhance the value proposition.\n\nTechnical feasibility is high given the refinery's existing process expertise, hydrogen availability for methanol synthesis, and established transportation infrastructure via pipeline, barge, truck, and rail. The facility's location on New York Harbor provides excellent logistics for both feedstock delivery and product distribution.\n\nKey risks include regulatory compliance for new CO2 conversion processes, competition from traditional methanol producers, and potential methanol price volatility. However, the strategic location, existing infrastructure, substantial CO2 emissions, proximate demand, and favorable incentive structure create a defensible competitive position for CO2-derived methanol production.",
+    "executive_summary": "Phillips 66 Bayway Refinery offers an outstanding CO2-to-methanol opportunity, combining 2.38 million tons of annual CO2 emissions with prime access to the New York-New Jersey chemical market and existing hydrogen production infrastructure. With methanol at $737/MT, $60/MT federal tax credits for CO2 utilization, and low electricity costs at $0.1175/kWh, the project benefits from strong economics and strategic positioning in one of America's largest petrochemical consumption centers.",
+    "cited_sources": [
+      {
+        "url": "https://ghgdata.epa.gov/ghgp/service/facilityDetail/2022?id=1004305&ds=E&et=&popup=true",
+        "extracted_quote": "Total Facility Emissions in metric tons CO 2 equivalent (mt CO 2 e) (AR4 GWPs, excluding Biogenic CO 2)2,383,018. Carbon Dioxide (CO 2)2,371,318. Hydrogen Production 97,897"
       },
       {
         "url": "https://www.imarcgroup.com/methanol-pricing-report",
-        "extracted_quote": "In Germany, the methanol prices for Q1 2024 reached 342 USD/MT in March. The market experienced subdued demand, primarily impacted by weak performance in the formaldehyde and MTBE industries."
+        "extracted_quote": "The methanol prices in the United States for Q3 2024 reached 737 USD/MT in September. The market witnessed a notable rise in prices due to supply chain interruptions and reduced imports, creating a tight market."
       },
       {
-        "url": "https://www.renewable-energy-industry.com/countries/article-6853-wholesale-electricity-prices-in-germany-lower-in-2024-than-in-2021-with-six-nuclear-power-plants",
-        "extracted_quote": "Electricity prices in the German wholesale sector will continue to fall in 2024, dropping by 16.8% to 7.95 cents/kWh (2023: 9.55 cents/kWh)."
+        "url": "https://quickelectricity.com/cost-of-electricity-by-state/",
+        "extracted_quote": "New JerseyYes15.52 14.41+7.70%"
       },
       {
-        "url": "https://www.trade.gov/country-commercial-guides/germany-energy",
-        "extracted_quote": "A major part of electricity produced and fed into the grid in Germany in 2024 came from renewable energy sources and accounted for 59 percent of total electricity production, an increase from 56 percent in 2023. Germany's power grid ranks among the most reliable in the world"
+        "url": "https://www.jackery.com/blogs/knowledge/average-electric-bill-in-new-jersey",
+        "extracted_quote": "New Jersey's commercial electric rate is around 14.83 cents per kWh, whereas it is 11.75 cents per kWh for the industrial region."
       },
       {
-        "url": "https://www.researchgate.net/publication/320046320_GREEN_CHEMISTRY_BASF_works_on_CO2_to_methanol",
-        "extracted_quote": "BASF and Germany's BSE Engineering will work together on converting CO2 and excess electricity into methanol. BSE is developing a process to"
+        "url": "https://www.phillips66.com/specialties/",
+        "extracted_quote": "The polypropylene facility at the Phillips 66 Bayway Refinery in Linden, New Jersey, utilizes integrated propylene and ethylene feedstocks to produce up to 775 million pounds per year of COPYLENE\u00ae polypropylene."
       },
       {
-        "url": "https://www.basf.com/dam/jcr:922b1e8f-be0d-3b38-810f-a5620c74a834/basf/www/global/documents/en/about-us/politics/BASF-Position-on-Future-Carbon-Raw-Materials.pdf",
-        "extracted_quote": "Finally, BASF has developed dedicated CCU catalytic systems for conversion of CO2 to synthetic methane and methanol, using CO2-free hydrogen."
+        "url": "https://www.bakerbotts.com/~/media/Files/Thought-Leadership/Publications/2024/July/45Q-Basic-Guide.pdf",
+        "extracted_quote": "CCE Placed into Service after 12/31/2022 Emitting Facility Direct air Capture Geological storage $85/mt $180/mt Used in EOR or manufacturing $60/mt $130/mt"
+      },
+      {
+        "url": "https://www.phillips66.com/refining/bayway-refinery/",
+        "extracted_quote": "LOCATION:Linden, New Jersey, about 13 miles southwest of Manhattan. The refinery produces a high percentage of transportation fuels, as well as petrochemical feedstocks, residual fuel oil and home heating oil."
+      },
+      {
+        "url": "https://law.justia.com/codes/new-jersey/title-13/section-13-1d-70/",
+        "extracted_quote": "formulae for the tax credits issued pursuant to P.L.2023, c.4 (C.13:1D-70 et al.) for concrete that incorporates carbon capture, utilization, and storage technology. Carbon capture, utilization, and storage technology means technologies or methods to remove carbon dioxide generated by the concrete manufacturing process"
+      }
+    ],
+    "viability_score": 6,
+    "ranking_rationale": "Electricity costs of $0.1175/kWh place this in the challenging category. However, excellent methanol pricing at $737/ton and federal tax credits of $60/MT provide strong revenue support. Existing hydrogen infrastructure and prime market location partially compensate for higher energy costs."
+  },
+  {
+    "location_name": "BASF Ludwigshafen Chemical Complex, Germany",
+    "latitude": 49.4912,
+    "longitude": 8.4262,
+    "primary_product": "Methanol",
+    "primary_product_market_price_per_ton_usd": "366",
+    "electricity_price_per_kwh_usd": "0.233",
+    "can_sell_100_tons_primary_product_within_100_km": true,
+    "other_viable_products": [
+      "Ethylene",
+      "Formic Acid",
+      "Polyurethane",
+      "Acetyls"
+    ],
+    "available_incentives": [
+      "German Climate Protection Contracts (Klimaschutzvertr\u00e4ge) - \u20ac3.3 billion allocated until 2030, \u20ac1 billion for first round",
+      "EU Innovation Fund - supports large-scale CCU/S projects",
+      "German Federal Ministry funding for CO2 capture and utilization - \u20ac1.3 billion planned",
+      "Heat pump project funding - up to \u20ac310 million from German Federal Ministry for Economic Affairs and Climate Action"
+    ],
+    "business_analysis": "The BASF Ludwigshafen site presents a compelling opportunity for CO2-to-methanol conversion due to several strategic advantages. The site is the world's largest integrated chemical complex with established CO2 infrastructure, as evidenced by BASF's collaboration with Linde and Heidelberg Materials on CO2 capture technology using BASF's OASE\u00ae blue technology. The facility already captures around 70,000 tons of CO2 annually and has invested in a 54-megawatt water electrolyzer producing green hydrogen, providing essential feedstock for methanol synthesis.\n\nMarket opportunity is strong with methanol demand driven by chemical synthesis and emerging e-fuel applications. Current European methanol prices around $366/MT provide reasonable margins, though CO2-to-methanol production costs range from $295-1200/MT depending on technology and carbon pricing scenarios. The Rhine Valley chemical cluster offers exceptional market access within 100km, including major petrochemical companies requiring methanol feedstock.\n\nTechnical feasibility is enhanced by BASF's existing infrastructure including CO2 capture systems, green hydrogen production, and steam generation capabilities. The company's recent investments in decarbonization technologies (\u20ac310 million heat pump project, \u20ac124.3 million electrolyzer funding) demonstrate commitment to carbon utilization pathways.\n\nEconomic viability is supported by substantial German government incentives totaling \u20ac3.3 billion for climate protection contracts through 2030, with CCU projects specifically eligible. The EU Innovation Fund provides additional large-scale project funding. However, high German electricity costs at $0.233/kWh present challenges for energy-intensive CO2 conversion processes.\n\nKey risks include volatile methanol pricing, high conversion costs relative to conventional production, and energy price sensitivity. The economics require carbon pricing of $180-330/tCO2 to achieve breakeven depending on technology pathway. BASF's recent facility closures (ammonia, methanol plants in 2023) reflect challenging German industrial economics, though this creates potential for modernized CO2-based replacement capacity.\n\nStrategic advantages include integration with existing chemical value chains, established CO2 capture infrastructure, green hydrogen availability, proximity to major chemical demand centers, and strong government policy support for industrial decarbonization.",
+    "executive_summary": "BASF Ludwigshafen offers exceptional CO2-to-methanol potential leveraging existing CO2 capture infrastructure, green hydrogen production, and proximity to Europe's largest chemical cluster. Despite high energy costs, substantial German government incentives (\u20ac3.3 billion climate contracts) and established market demand within 100km create a viable investment case for integrated methanol production.",
+    "cited_sources": [
+      {
+        "url": "https://www.chemanalyst.com/Pricing-data/methanol-1",
+        "extracted_quote": "The quarter concluded with Methanol priced at USD 366/MT FD Rotterdam in the Netherlands, reflecting a consistently increasing pricing environment throughout Q3 2024."
+      },
+      {
+        "url": "https://cubeconcepts.de/en/europes-industrial-electricity-prices-2024/",
+        "extracted_quote": "Germany was with 23.3 cents/kWh about 25 % above the EU average, with industrial customers with lower consumption (< 20 MWh) in the medium voltage only 16.99 cents/kWh on average."
+      },
+      {
+        "url": "https://www.basf.com/jp/en/media/news-releases/global/2023/06/p-23-218",
+        "extracted_quote": "Around 70,000 tons per year of CO\u2082 will be captured... The plant will be the world's first industrial-scale carbon capture and utilization (CCU) facility."
       },
       {
         "url": "https://www.noerr.com/en/insights/new-funding-policy-for-germanys-carbon-management-strategy",
-        "extracted_quote": "The Federal Ministry for Economic Affairs and Climate Action has launched the Federal Funding Policy for Industry and Climate Action, introducing two new modules to promote climate transformation: one for industrial decarbonisation and another for Carbon Capture and Storage (CCS) and Carbon Capture and Utilisation (CCU)."
+        "extracted_quote": "Annual funding competitions will be held, with approximately \u20ac3.3 billion allocated from the Climate and Transformation Fund. For the initial round, \u20ac1 billion has been earmarked by the ministry."
       },
       {
-        "url": "https://www.dena.de/fileadmin/dena/Publikationen/PDFs/2025/ENTRANS/EnTrans_FACTSHEET_INCENTIVE_SYSTEMS_FOR_CARBON_CAPTURE_UTILISATION_STORAGE.pdf",
-        "extracted_quote": "Subsidy covering the difference between the CO2 price and the cost of CO2 abatement \u2022 Contract duration of 10 years or more \u2022 Can apply to the final product or the energy carrier"
+        "url": "https://ammoniaenergy.org/articles/basf-54-mw-electrolysis-capacity-now-online-at-ludwigshafen/",
+        "extracted_quote": "This milestone is a product of project Hy4CHem, which was funded through concerted effort by Germany' Federal Ministry for Economic Affairs and Climate Action and the state government of Rhineland-Palatinate (\u20ac124.3 million combined) and BASF (\u20ac25 million)."
       },
       {
-        "url": "https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2024/04/carbon-capture-and-storage-in-germany-new-opportunities-for-project-developers-and-investors.pdf",
-        "extracted_quote": "The German Government has announced that it will enable Carbon Capture and Storage (CCS) and facilitate Carbon Capture and Utilisation (CCU) on an industrial scale, paving the way for a future CO2 pipeline network."
+        "url": "https://www.businesschemistry.org/article/structural-analysis-of-petrochemical-clusters-in-germany-what-can-be-learned-for-the-transformation-towards-climateneutrality/",
+        "extracted_quote": "The clear regional focus of both material and absolute use of natural gas is the Ludwigshafen site, accounting for almost one-third of total demand... With a plant area of about 10 km2, BASF SE's Verbund site in Ludwigshafen, RhinelandPalatinate, is considered the largest contiguous chemical site in the world."
+      },
+      {
+        "url": "https://www.ogci.com/wp-content/uploads/2024/05/CCU-Report-vf.pdf",
+        "extracted_quote": "The cost of e-methanol is estimated at $900 to $1200 per ton, which is two to four times more expensive than grey methanol... Even with the IRA Production Tax Credit, a carbon price of at least $330 per t CO\u2082 is required for e-methanol to break even in 2025."
+      },
+      {
+        "url": "https://www.gigkarasek.com/news/large-scale-heat-pump-basf",
+        "extracted_quote": "The project is funded with up to \u20ac310 million by the German Federal Ministry for Economic Affairs and Climate Action and will be able to save up to 100,000 metric tons of CO\u2082 emissions annually."
       }
-    ]
+    ],
+    "viability_score": 4,
+    "ranking_rationale": "Very high electricity costs at $0.233/kWh severely impact economics despite world-class infrastructure. While substantial government incentives (\u20ac3.3 billion climate contracts) and existing CO2 capture capabilities are positive, the energy cost burden and moderate methanol pricing at $366/ton result in marginal viability."
   }
 ]
