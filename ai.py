@@ -59,7 +59,7 @@ Analyze this industrial site for CO2-to-product conversion opportunities:
 Site: {site_description}
     
 Research and determine:
-- Most viable CO2-derived product for this location
+- Most viable CO2-derived product for this specific location considering existing operations and local demand
 - Current market price for that product in USD per metric ton
 - Industrial electricity price at this location in USD per kWh
 - Whether there's demand to sell 100+ tons of product annually within 100km
@@ -67,7 +67,7 @@ Research and determine:
 - Available financial incentives and amounts
 
 Document all sources with exact quotes in cited_sources.
-Provide comprehensive evidence-backed analysis in business_analysis covering market opportunity, technical feasibility, economics, risks, and strategic advantages.
+Provide comprehensive evidence-backed analysis in business_analysis covering market opportunity, technical feasibility, economics, risks, and strategic advantages. Explain why your chosen product is optimal for this specific site.
 Provide a concise 2-3 sentence investment thesis in executive_summary.
     """
 
