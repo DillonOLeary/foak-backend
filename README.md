@@ -14,6 +14,7 @@ DATABASE_URL=postgresql://username:password@localhost:5432/database_name
 
 # API Keys
 TAVILY_API_KEY=your_tavily_api_key_here
+GOOGLE_API_KEY=your_google_api_key_here
 ```
 
 ### Database Setup

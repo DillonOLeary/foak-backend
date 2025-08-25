@@ -35,8 +35,7 @@ all_tools = search_tools + database_tools
 
 # Create the individual site analysis agent
 individual_analysis_agent = Agent(
-    "claude-opus-4-0",
-    # "claude-sonnet-4-0",
+    "gemini-2.5-pro",
     output_type=IndividualSiteAnalysis,
     tools=all_tools,
     system_prompt="""
@@ -56,7 +55,7 @@ Use the database tools to query this data for relevant information about the sit
 
 # Create the comparative scoring agent
 scoring_agent = Agent(
-    "claude-opus-4-0",
+    "gemini-2.5-pro",
     output_type=list[SiteScore],
     tools=all_tools,  # Also give scoring agent access to database
     system_prompt="""
